@@ -13,14 +13,14 @@ extension Dimension {
         measurementFormatter.unitOptions = .providedUnit
         measurementFormatter.unitStyle = .long
         let formattedString = measurementFormatter.string(from: self)
-        if formattedString == self.symbol, let unitLength = self as? UnitLength {
+        if formattedString == symbol, let unitLength = self as? UnitLength {
             return unitLength.customName
         } else {
             return formattedString
         }
     }
-    
+
     var nameFull: String {
-        nameMedium + " (\(self.symbol))"
+        nameMedium + " (\(symbol))"
     }
 }

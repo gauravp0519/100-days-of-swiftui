@@ -19,7 +19,7 @@ struct Day17_18View: View {
               description: "",
               view: AnyView(Day17_18_CheckSplittingView())),
     ]
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -42,8 +42,6 @@ struct Day17_18View: View {
     }
 }
 
-struct Day17_18View_Previews: PreviewProvider {
-    static var previews: some View {
-        Day17_18View()
-    }
+#Preview {
+    Day17_18View()
 }

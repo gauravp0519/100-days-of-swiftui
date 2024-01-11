@@ -1,5 +1,5 @@
 //
-//  Day16View.swift
+//  Day16_HelloWorldView.swift
 //  HackingWithSwift
 //
 //  Created by Gaurav Pahwa on 2023-12-02.
@@ -18,8 +18,6 @@ struct Day16_HelloWorldView: View {
     }
 }
 
-struct Day16_HelloWorldView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16_HelloWorldView()
-    }
+#Preview {
+    Day16_HelloWorldView()
 }

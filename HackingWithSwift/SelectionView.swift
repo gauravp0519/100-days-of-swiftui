@@ -49,9 +49,12 @@ struct SelectionView: View {
             .init(title: "Day 21-22",
                   description: "#GuessTheFlag, part 2-3",
                   view: AnyView(Day21_22View())),
-        ])
+            .init(title: "Day 23-24",
+                  description: "How SwiftUI actually works internally?",
+                  view: AnyView(Day23_24View())),
+        ]),
     ]
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -70,7 +73,6 @@ struct SelectionView: View {
                             }
                         }
                     }
-
                 }
             }
             .navigationTitle("Hacking with SwiftUI ")
@@ -78,8 +80,6 @@ struct SelectionView: View {
     }
 }
 
-struct SelectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        SelectionView()
-    }
+#Preview {
+    SelectionView()
 }

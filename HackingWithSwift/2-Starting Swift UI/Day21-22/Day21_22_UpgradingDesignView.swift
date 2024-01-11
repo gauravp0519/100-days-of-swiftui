@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Day21_22_UpgradingDesignView: View {
     @State private var countries: [String] = ["Estonia", "France", "Germany", "India", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
-    @State private var correctAnswerIndex = Int.random(in: 0..<3)
+    @State private var correctAnswerIndex = Int.random(in: 0 ..< 3)
     @State private var score = 0
     var body: some View {
         ZStack {
@@ -17,7 +17,7 @@ struct Day21_22_UpgradingDesignView: View {
                 .init(color: Color(red: 0.1, green: 0.2, blue: 0.45), location: 0.3),
                 .init(color: Color(red: 0.76, green: 0.15, blue: 0.26), location: 0.3),
             ], center: .top, startRadius: 200, endRadius: 700)
-            .ignoresSafeArea()
+                .ignoresSafeArea()
 
             VStack {
                 Spacer()
@@ -28,16 +28,15 @@ struct Day21_22_UpgradingDesignView: View {
 
                 VStack(spacing: 15) {
                     VStack {
-                        Text("Guess the flag of")
+                        Text("Tap the flag of")
                             .foregroundStyle(.white)
                             .font(.subheadline.weight(.heavy))
                         Text(countries[correctAnswerIndex])
                             .foregroundStyle(.white)
                             .font(.largeTitle.weight(.semibold))
-
                     }
 
-                    ForEach(0..<3) { index in
+                    ForEach(0 ..< 3) { index in
                         Button {
                             didTapIndex(index)
                         } label: {
@@ -50,7 +49,7 @@ struct Day21_22_UpgradingDesignView: View {
                 .padding(.vertical, 20)
                 .background(.regularMaterial)
                 .clipShape(RoundedRectangle(cornerSize:
-                        .init(width: 20, height: 20))
+                    .init(width: 20, height: 20))
                 )
 
                 Spacer()
@@ -65,7 +64,6 @@ struct Day21_22_UpgradingDesignView: View {
             }
             .padding()
         }
-        .ignoresSafeArea()
     }
 
     func didTapIndex(_ index: Int) {
@@ -75,12 +73,10 @@ struct Day21_22_UpgradingDesignView: View {
             score -= 1
         }
         countries.shuffle()
-        correctAnswerIndex = Int.random(in: 0..<3)
+        correctAnswerIndex = Int.random(in: 0 ..< 3)
     }
 }
 
-struct Day21_22_UpgradingDesignView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day21_22_UpgradingDesignView()
-    }
+#Preview {
+    Day21_22_UpgradingDesignView()
 }

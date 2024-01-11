@@ -10,7 +10,7 @@ import SwiftUI
 struct Day16_PickerView: View {
     let students = ["Harry", "Hermione", "Ron"]
     @State private var selectedStudent = "Harry"
-    
+
     var body: some View {
         NavigationStack {
             Form {
@@ -22,7 +22,7 @@ struct Day16_PickerView: View {
                     }
                     .pickerStyle(.automatic)
                 }
-                
+
                 Section("Inline") {
                     Picker("Select your student", selection: $selectedStudent) {
                         ForEach(students, id: \.self) {
@@ -31,7 +31,7 @@ struct Day16_PickerView: View {
                     }
                     .pickerStyle(.inline)
                 }
-                
+
                 Section("Menu") {
                     Picker("Select your student", selection: $selectedStudent) {
                         ForEach(students, id: \.self) {
@@ -40,7 +40,7 @@ struct Day16_PickerView: View {
                     }
                     .pickerStyle(.menu)
                 }
-                
+
                 Section("NavigationLink") {
                     Picker("Select your student", selection: $selectedStudent) {
                         ForEach(students, id: \.self) {
@@ -49,7 +49,7 @@ struct Day16_PickerView: View {
                     }
                     .pickerStyle(.navigationLink)
                 }
-                
+
                 Section("Segmented") {
                     Picker("Select your student", selection: $selectedStudent) {
                         ForEach(students, id: \.self) {
@@ -58,7 +58,7 @@ struct Day16_PickerView: View {
                     }
                     .pickerStyle(.segmented)
                 }
-                
+
                 Section("Wheel") {
                     Picker("Select your student", selection: $selectedStudent) {
                         ForEach(students, id: \.self) {
@@ -72,8 +72,6 @@ struct Day16_PickerView: View {
     }
 }
 
-struct Day16_PickerView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16_PickerView()
-    }
+#Preview {
+    Day16_PickerView()
 }

@@ -11,8 +11,9 @@ struct Day21_22_StackingFlagButtonsView: View {
     private var countries: [String] {
         ["Estonia", "France", "Germany", "India", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     }
+
     private var correctAnswerIndex: Int {
-        Int.random(in: 0..<3)
+        Int.random(in: 0 ..< 3)
     }
 
     var body: some View {
@@ -28,7 +29,7 @@ struct Day21_22_StackingFlagButtonsView: View {
                         .foregroundStyle(.white)
                 }
 
-                ForEach(0..<3) { index in
+                ForEach(0 ..< 3) { index in
                     Button {
                         //
                     } label: {
@@ -41,8 +42,6 @@ struct Day21_22_StackingFlagButtonsView: View {
     }
 }
 
-struct Day21_22_StackingFlagButtonsView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day21_22_StackingFlagButtonsView()
-    }
+#Preview {
+    Day21_22_StackingFlagButtonsView()
 }

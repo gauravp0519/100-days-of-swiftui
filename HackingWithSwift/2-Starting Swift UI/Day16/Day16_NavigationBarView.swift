@@ -21,8 +21,6 @@ struct Day16_NavigationBarView: View {
     }
 }
 
-struct Day16_NavigationBarView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16_NavigationBarView()
-    }
+#Preview {
+    Day16_NavigationBarView()
 }

@@ -17,7 +17,7 @@ struct Day19_TemperatureConversionView: View {
         let output = input.converted(to: selectedOutputUnit)
         return output.value
     }
-    
+
     var body: some View {
         Form {
             Section(header: Text("Input temperature unit")) {
@@ -28,12 +28,12 @@ struct Day19_TemperatureConversionView: View {
                 }
                 .pickerStyle(.segmented)
             }
-            
+
             Section(header: Text("Temperature in \(selectedInputUnit.symbol)")) {
                 TextField("Enter Temperature", value: $inputValue, format: .number)
                     .keyboardType(.decimalPad)
             }
-            
+
             Section(header: Text("Output temperature unit")) {
                 Picker("Output", selection: $selectedOutputUnit) {
                     ForEach(units, id: \.self) {
@@ -42,7 +42,7 @@ struct Day19_TemperatureConversionView: View {
                 }
                 .pickerStyle(.segmented)
             }
-            
+
             Section(header: Text("Output")) {
                 Text(String(format: "%g %@", output, selectedOutputUnit.symbol))
             }
@@ -55,8 +55,6 @@ struct Day19_TemperatureConversionView: View {
     }
 }
 
-struct Day19_TemperatureConversionView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day19_TemperatureConversionView()
-    }
+#Preview {
+    Day19_TemperatureConversionView()
 }

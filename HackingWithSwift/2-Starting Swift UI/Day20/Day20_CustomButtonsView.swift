@@ -14,11 +14,11 @@ struct Day20_CustomButtonsView: View {
                 print("Tapped!")
             } label: {
                 Text("Tap me!")
-                        .padding()
-                        .foregroundStyle(.white)
-                        .background(.red)
+                    .padding()
+                    .foregroundStyle(.white)
+                    .background(.red)
             }
-            
+
             Button {
                 print("Tapped!")
             } label: {
@@ -26,7 +26,7 @@ struct Day20_CustomButtonsView: View {
             }
             .frame(width: 44, height: 44)
             .border(.black)
-            
+
             Button {
                 print("Tapped!")
             } label: {
@@ -39,8 +39,6 @@ struct Day20_CustomButtonsView: View {
     }
 }
 
-struct Day20_CustomButtonsView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_CustomButtonsView()
-    }
+#Preview {
+    Day20_CustomButtonsView()
 }

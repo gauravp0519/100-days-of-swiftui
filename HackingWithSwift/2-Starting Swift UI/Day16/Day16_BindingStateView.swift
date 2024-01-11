@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Day16_BindingStateView: View {
     @State private var name = ""
-    
+
     var body: some View {
         Form {
             TextField("Enter your name", text: $name)
@@ -19,8 +19,6 @@ struct Day16_BindingStateView: View {
     }
 }
 
-struct Day16_BindingStateView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16_BindingStateView()
-    }
+#Preview {
+    Day16_BindingStateView()
 }

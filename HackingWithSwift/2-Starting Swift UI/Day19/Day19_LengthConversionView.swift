@@ -17,7 +17,7 @@ struct Day19_LengthConversionView: View {
         let output = input.converted(to: selectedOutputUnit)
         return output.value
     }
-    
+
     var body: some View {
         Form {
             Section(header: Text("Input length unit")) {
@@ -28,12 +28,12 @@ struct Day19_LengthConversionView: View {
                 }
             }
             .pickerStyle(.navigationLink)
-            
+
             Section(header: Text("Length in \(selectedInputUnit.nameMedium)")) {
                 TextField("Enter Temperature", value: $inputValue, format: .number)
                     .keyboardType(.decimalPad)
             }
-            
+
             Section(header: Text("Output length unit")) {
                 Picker("Output", selection: $selectedOutputUnit) {
                     ForEach(units, id: \.self) {
@@ -42,7 +42,7 @@ struct Day19_LengthConversionView: View {
                 }
             }
             .pickerStyle(.navigationLink)
-            
+
             Section(header: Text("Output")) {
                 Text(String(format: "%g %@", output, selectedOutputUnit.symbol))
             }
@@ -55,8 +55,6 @@ struct Day19_LengthConversionView: View {
     }
 }
 
-struct Day19_LengthConversionView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day19_LengthConversionView()
-    }
+#Preview {
+    Day19_LengthConversionView()
 }

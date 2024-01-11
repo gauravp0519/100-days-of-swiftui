@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Day16_LoopView: View {    
+struct Day16_LoopView: View {
     var body: some View {
         Form {
             ForEach(0 ..< 100) {
@@ -17,8 +17,6 @@ struct Day16_LoopView: View {
     }
 }
 
-struct Day16_LoopView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16_LoopView()
-    }
+#Preview {
+    Day16_LoopView()
 }

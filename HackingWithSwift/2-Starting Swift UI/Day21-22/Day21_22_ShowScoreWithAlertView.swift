@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Day21_22_ShowScoreWithAlertView: View {
     @State private var countries: [String] = ["Estonia", "France", "Germany", "India", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
-    @State private var correctAnswerIndex = Int.random(in: 0..<3)
+    @State private var correctAnswerIndex = Int.random(in: 0 ..< 3)
     @State private var isShowingAlert: Bool = false
     @State private var alertTitle: String = ""
     @State private var score = 0
@@ -23,7 +23,7 @@ struct Day21_22_ShowScoreWithAlertView: View {
                     Text(countries[correctAnswerIndex])
                         .foregroundStyle(.white)
                 }
-                ForEach(0..<3) { index in
+                ForEach(0 ..< 3) { index in
                     Button {
                         didTapIndex(index)
                     } label: {
@@ -33,7 +33,7 @@ struct Day21_22_ShowScoreWithAlertView: View {
             }
         }
         .alert(alertTitle, isPresented: $isShowingAlert) {
-            Button("Continue", role: .cancel) { }
+            Button("Continue", role: .cancel) {}
         } message: {
             Text("Your score is \(score)")
         }
@@ -50,12 +50,10 @@ struct Day21_22_ShowScoreWithAlertView: View {
         }
         isShowingAlert = true
         countries.shuffle()
-        correctAnswerIndex = Int.random(in: 0..<3)
+        correctAnswerIndex = Int.random(in: 0 ..< 3)
     }
 }
 
-struct Day21_22_ShowScoreWithAlertView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day21_22_ShowScoreWithAlertView()
-    }
+#Preview {
+    Day21_22_ShowScoreWithAlertView()
 }

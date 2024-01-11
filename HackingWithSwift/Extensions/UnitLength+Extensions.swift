@@ -55,7 +55,7 @@ extension UnitLength {
         case .parsecs:
             return "parsecs"
         default:
-            return self.symbol
+            return symbol
         }
     }
 }

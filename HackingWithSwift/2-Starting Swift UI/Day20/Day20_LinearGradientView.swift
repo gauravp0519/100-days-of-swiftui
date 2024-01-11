@@ -21,8 +21,6 @@ struct Day20_LinearGradientView: View {
     }
 }
 
-struct Day20_LinearGradientView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_LinearGradientView()
-    }
+#Preview {
+    Day20_LinearGradientView()
 }

@@ -22,7 +22,7 @@ struct Day19View: View {
               description: "",
               view: AnyView(Day19_VolumeConversionView())),
     ]
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -45,8 +45,6 @@ struct Day19View: View {
     }
 }
 
-struct Day19View_Previews: PreviewProvider {
-    static var previews: some View {
-        Day19View()
-    }
+#Preview {
+    Day19View()
 }

@@ -10,41 +10,39 @@ import SwiftUI
 struct Day20_ButtonsView: View {
     var body: some View {
         VStack(spacing: 10) {
-            Button("Button - automatic", role: .destructive) { }
+            Button("Button - automatic", role: .destructive) {}
                 .buttonStyle(.automatic)
-            Button("Button - bordered") { }
+            Button("Button - bordered") {}
                 .buttonStyle(.bordered)
-            Button("Button - borderedProminent") { }
+            Button("Button - borderedProminent") {}
                 .buttonStyle(.borderedProminent)
-            Button("Button - borderless") { }
+            Button("Button - borderless") {}
                 .buttonStyle(.borderless)
-            Button("Button - plain") { }
+            Button("Button - plain") {}
                 .buttonStyle(.plain)
-            
+
             Divider()
                 .background(.primary)
-            
-            Button("Button - custom tint") { }
+
+            Button("Button - custom tint") {}
                 .tint(.mint)
-            
+
             Divider()
                 .background(.primary)
-            
+
             Button("Tap me") {
                 print("Tapped!")
             }
-            
+
             Button("Tap execute function", action: self.buttonTapped)
         }
     }
-    
+
     private func buttonTapped() {
         print("Tapped!")
     }
 }
 
-struct Day20_ButtonsView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_ButtonsView()
-    }
+#Preview {
+    Day20_ButtonsView()
 }

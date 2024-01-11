@@ -31,7 +31,7 @@ struct Day16View: View {
               description: "",
               view: AnyView(Day16_PickerView())),
     ]
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -54,8 +54,6 @@ struct Day16View: View {
     }
 }
 
-struct Day16View_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16View()
-    }
+#Preview {
+    Day16View()
 }

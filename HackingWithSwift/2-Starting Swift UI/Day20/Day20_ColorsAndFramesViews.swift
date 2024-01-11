@@ -1,5 +1,5 @@
 //
-//  Day20_ColorsAndFramesView.swift
+//  Day20_ColorsAndFramesViews.swift
 //  HackingWithSwift
 //
 //  Created by Gaurav Pahwa on 2023-12-04.
@@ -23,8 +23,6 @@ struct Day20_ColorsAndFramesView: View {
     }
 }
 
-struct Day20_ColorsAndFramesView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_ColorsAndFramesView()
-    }
+#Preview {
+    Day20_ColorsAndFramesView()
 }

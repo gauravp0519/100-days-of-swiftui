@@ -22,8 +22,6 @@ struct Day16_FormView: View {
     }
 }
 
-struct Day16_FormView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16_FormView()
-    }
+#Preview {
+    Day16_FormView()
 }

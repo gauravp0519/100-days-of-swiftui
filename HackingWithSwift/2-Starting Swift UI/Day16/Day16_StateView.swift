@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Day16_StateView: View {
     @State var tapCount = 0
-    
+
     var body: some View {
         Button("Tap Count: \(tapCount)") {
             self.tapCount += 1
@@ -17,8 +17,6 @@ struct Day16_StateView: View {
     }
 }
 
-struct Day16_StateView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day16_StateView()
-    }
+#Preview {
+    Day16_StateView()
 }

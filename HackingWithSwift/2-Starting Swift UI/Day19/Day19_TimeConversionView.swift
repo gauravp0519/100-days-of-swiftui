@@ -17,7 +17,7 @@ struct Day19_TimeConversionView: View {
         let output = input.converted(to: selectedOutputUnit)
         return output.value
     }
-    
+
     var body: some View {
         Form {
             Section(header: Text("Input time duration unit")) {
@@ -28,12 +28,12 @@ struct Day19_TimeConversionView: View {
                 }
             }
             .pickerStyle(.navigationLink)
-            
+
             Section(header: Text("Time duration in \(selectedInputUnit.nameMedium)")) {
                 TextField("Enter Temperature", value: $inputValue, format: .number)
                     .keyboardType(.decimalPad)
             }
-            
+
             Section(header: Text("Output time duration unit")) {
                 Picker("Output", selection: $selectedOutputUnit) {
                     ForEach(units, id: \.self) {
@@ -42,7 +42,7 @@ struct Day19_TimeConversionView: View {
                 }
             }
             .pickerStyle(.navigationLink)
-            
+
             Section(header: Text("Output")) {
                 Text(String(format: "%g %@", output, selectedOutputUnit.nameMedium))
             }
@@ -55,8 +55,6 @@ struct Day19_TimeConversionView: View {
     }
 }
 
-struct Day19_TimeConversionView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day19_TimeConversionView()
-    }
+#Preview {
+    Day19_TimeConversionView()
 }

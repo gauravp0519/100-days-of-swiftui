@@ -18,8 +18,6 @@ struct Day20_ZStackView: View {
     }
 }
 
-struct Day20_ZStackView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_ZStackView()
-    }
+#Preview {
+    Day20_ZStackView()
 }

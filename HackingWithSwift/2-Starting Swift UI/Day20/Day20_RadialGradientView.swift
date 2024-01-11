@@ -13,8 +13,6 @@ struct Day20_RadialGradientView: View {
     }
 }
 
-struct Day20_RadialGradientView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_RadialGradientView()
-    }
+#Preview {
+    Day20_RadialGradientView()
 }

@@ -25,7 +25,7 @@ struct Day21_22View: View {
               description: "",
               view: AnyView(Day21_22_GuessTheFlagGameView())),
     ]
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -48,8 +48,6 @@ struct Day21_22View: View {
     }
 }
 
-struct Day21_22View_Previews: PreviewProvider {
-    static var previews: some View {
-        Day21_22View()
-    }
+#Preview {
+    Day21_22View()
 }

@@ -10,13 +10,11 @@ import SwiftUI
 struct Day20_AngularGradientView: View {
     var body: some View {
         AngularGradient(colors: [
-            .orange, .red, .blue, .green, .yellow, .orange
+            .orange, .red, .blue, .green, .yellow, .orange,
         ], center: .center)
     }
 }
 
-struct Day20_AngularGradientView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_AngularGradientView()
-    }
+#Preview {
+    Day20_AngularGradientView()
 }

@@ -9,26 +9,26 @@ import SwiftUI
 
 struct Day3View: View {
     private let codeSnippet = """
-                let results = [
-                  "english": 100,
-                  "french": 85,
-                  "geography": 75,
-                ]
-                
-                let historyResult = results["history", default: 0]
-                
-                print(historyResult)
-                """
-    
+    let results = [
+      "english": 100,
+      "french": 85,
+      "geography": 75,
+    ]
+
+    let historyResult = results["history", default: 0]
+
+    print(historyResult)
+    """
+
     var body: some View {
         NavigationStack {
             VStack(alignment: .leading, spacing: 16) {
                 Text("*How to use default values in Dictionaries*")
-                
+
                 CodeView(self.codeSnippet)
-                
+
                 OutputView("0")
-                
+
                 Spacer()
             }
             .padding()
@@ -38,8 +38,6 @@ struct Day3View: View {
     }
 }
 
-struct Day3View_Previews: PreviewProvider {
-    static var previews: some View {
-        Day3View()
-    }
+#Preview {
+    Day3View()
 }

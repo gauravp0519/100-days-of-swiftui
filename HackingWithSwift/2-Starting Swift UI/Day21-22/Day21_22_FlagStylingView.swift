@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Day21_22_FlagStylingView: View {
     @State private var countries: [String] = ["Estonia", "France", "Germany", "India", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
-    @State private var correctAnswerIndex = Int.random(in: 0..<3)
+    @State private var correctAnswerIndex = Int.random(in: 0 ..< 3)
     @State private var isShowingAlert: Bool = false
     @State private var alertTitle: String = ""
     @State private var score = 0
@@ -17,20 +17,20 @@ struct Day21_22_FlagStylingView: View {
         ZStack {
             LinearGradient(colors: [.blue, .black],
                            startPoint: .top, endPoint: .bottom)
-            .ignoresSafeArea()
+                .ignoresSafeArea()
 
             VStack(spacing: 30) {
                 VStack {
                     Text("Guess the flag of")
                         .foregroundStyle(.white)
                         .font(.subheadline.weight(.heavy))
-                    
+
                     Text(countries[correctAnswerIndex])
                         .foregroundStyle(.white)
                         .font(.largeTitle.weight(.semibold))
                 }
 
-                ForEach(0..<3) { index in
+                ForEach(0 ..< 3) { index in
                     Button {
                         didTapIndex(index)
                     } label: {
@@ -41,7 +41,7 @@ struct Day21_22_FlagStylingView: View {
             }
         }
         .alert(alertTitle, isPresented: $isShowingAlert) {
-            Button("Continue", role: .cancel) { }
+            Button("Continue", role: .cancel) {}
         } message: {
             Text("Your score is \(score)")
         }
@@ -58,12 +58,10 @@ struct Day21_22_FlagStylingView: View {
         }
         isShowingAlert = true
         countries.shuffle()
-        correctAnswerIndex = Int.random(in: 0..<3)
+        correctAnswerIndex = Int.random(in: 0 ..< 3)
     }
 }
 
-struct Day21_22_FlagStylingView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day21_22_FlagStylingView()
-    }
+#Preview {
+    Day21_22_FlagStylingView()
 }

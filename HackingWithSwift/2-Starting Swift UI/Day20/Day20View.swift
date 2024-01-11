@@ -37,7 +37,7 @@ struct Day20View: View {
               description: "",
               view: AnyView(Day20_AlertView())),
     ]
-    
+
     var body: some View {
         NavigationStack {
             List {
@@ -60,8 +60,6 @@ struct Day20View: View {
     }
 }
 
-struct Day20View_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20View()
-    }
+#Preview {
+    Day20View()
 }

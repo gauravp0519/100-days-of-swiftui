@@ -14,7 +14,7 @@ struct Day20_BackgroundMaterialView: View {
                 Color.red
                 Color.blue
             }
-            
+
             VStack(spacing: 0) {
                 Text("regularMaterial")
                     .foregroundStyle(.secondary)
@@ -46,8 +46,6 @@ struct Day20_BackgroundMaterialView: View {
     }
 }
 
-struct Day20_BackgroundMaterialView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day20_BackgroundMaterialView()
-    }
+#Preview {
+    Day20_BackgroundMaterialView()
 }

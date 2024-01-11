@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Day17_18_FormattingTextView: View {
     @State private var amount = 0.0
-    
+
     var body: some View {
         Form {
             TextField("Amount", value: $amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
@@ -18,8 +18,6 @@ struct Day17_18_FormattingTextView: View {
     }
 }
 
-struct Day17_18_FormattingTextView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day17_18_FormattingTextView()
-    }
+#Preview {
+    Day17_18_FormattingTextView()
 }

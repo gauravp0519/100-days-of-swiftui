@@ -10,7 +10,7 @@ import SwiftUI
 struct Day17_18_HidingKeyboardView: View {
     @State private var amount = 0.0
     @FocusState private var amountIsFocused: Bool
-    
+
     var body: some View {
         Form {
             TextField("Amount", value: $amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
@@ -30,8 +30,6 @@ struct Day17_18_HidingKeyboardView: View {
     }
 }
 
-struct Day17_18_HidingKeyboardView_Previews: PreviewProvider {
-    static var previews: some View {
-        Day17_18_HidingKeyboardView()
-    }
+#Preview {
+    Day17_18_HidingKeyboardView()
 }
