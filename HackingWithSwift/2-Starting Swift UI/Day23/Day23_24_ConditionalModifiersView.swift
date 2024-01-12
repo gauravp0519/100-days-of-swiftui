@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct Day23_24_ConditionalModifiersView: View {
+    @State private var useRedText: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            Spacer()
+            Button("Tap to change color") {
+                useRedText.toggle()
+            }
+            .foregroundColor(useRedText ? .red : .blue)
+            Spacer()
+            Text("Code snippet:")
+            CodeView("""
+            Button("Tap to change color") {
+              useRedText.toggle()
+            }
+            .foregroundColor(useRedText ? .red : .blue)
+            """)
+            Spacer()
+            Spacer()
+        }
+        .padding()
     }
 }
 

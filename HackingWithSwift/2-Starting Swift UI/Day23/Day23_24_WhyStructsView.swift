@@ -36,12 +36,6 @@ struct Day23_24_WhyStructsView: View {
     }
 }
 
-extension Text {
-    func coloredText(_ color: Color) -> Text {
-        foregroundColor(color)
-    }
-}
-
 #Preview {
     Day23_24_WhyStructsView()
 }
