@@ -66,6 +66,8 @@
 		6696F96D2B1B99C100CFFCCF /* Day19_LengthConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696F96C2B1B99C100CFFCCF /* Day19_LengthConversionView.swift */; };
 		6696F96F2B1B99D300CFFCCF /* Day19_TimeConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696F96E2B1B99D300CFFCCF /* Day19_TimeConversionView.swift */; };
 		6696F9712B1B99E100CFFCCF /* Day19_VolumeConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696F9702B1B99E100CFFCCF /* Day19_VolumeConversionView.swift */; };
+		669AB0572B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0562B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift */; };
+		669AB0592B5391E10087ECCD /* Dat23_24_CustomContainersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0582B5391E10087ECCD /* Dat23_24_CustomContainersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +151,8 @@
 		6696F96C2B1B99C100CFFCCF /* Day19_LengthConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19_LengthConversionView.swift; sourceTree = "<group>"; };
 		6696F96E2B1B99D300CFFCCF /* Day19_TimeConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19_TimeConversionView.swift; sourceTree = "<group>"; };
 		6696F9702B1B99E100CFFCCF /* Day19_VolumeConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19_VolumeConversionView.swift; sourceTree = "<group>"; };
+		669AB0562B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_23_24_ViewGroupsView.swift; sourceTree = "<group>"; };
+		669AB0582B5391E10087ECCD /* Dat23_24_CustomContainersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dat23_24_CustomContainersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,8 +191,10 @@
 				661E29A02B3D568A000CFAA0 /* Day23_24_ConditionalModifiersView.swift */,
 				661E29A22B3D56C9000CFAA0 /* Day23_24_EnvModifiersView.swift */,
 				661E29A42B3D5765000CFAA0 /* Day23_24_ViewsAsPropertiesView.swift */,
+				669AB0562B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift */,
 				661E29A62B3D577F000CFAA0 /* Day23_24_ViewCompositionView.swift */,
 				661E29A82B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift */,
+				669AB0582B5391E10087ECCD /* Dat23_24_CustomContainersView.swift */,
 			);
 			path = Day23;
 			sourceTree = "<group>";
@@ -486,7 +492,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		663C91F22B4F977F0050C08B /* Run SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -498,7 +504,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n  swiftformat . --cache ignore\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
 		};
@@ -529,8 +535,10 @@
 				6696F94E2B1AFA9600CFFCCF /* Day16_HelloWorldView.swift in Sources */,
 				661E29992B3D530E000CFAA0 /* Day23_24View.swift in Sources */,
 				6643546E2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift in Sources */,
+				669AB0592B5391E10087ECCD /* Dat23_24_CustomContainersView.swift in Sources */,
 				6696F9572B1B7A1400CFFCCF /* Day16_StateView.swift in Sources */,
 				6696F90D2B1A4CB700CFFCCF /* HackingWithSwiftApp.swift in Sources */,
+				669AB0572B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift in Sources */,
 				6696F9642B1B8D7200CFFCCF /* Day17_18_CheckSplittingView.swift in Sources */,
 				667024022B1D9A06003328D5 /* Day20_RadialGradientView.swift in Sources */,
 				6696F96B2B1B99B300CFFCCF /* Day19_TemperatureConversionView.swift in Sources */,

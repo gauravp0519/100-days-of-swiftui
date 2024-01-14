@@ -16,14 +16,14 @@ struct Day23_24_ConditionalModifiersView: View {
             Button("Tap to change color") {
                 useRedText.toggle()
             }
-            .foregroundColor(useRedText ? .red : .blue)
+            .foregroundStyle(useRedText ? .red : .blue)
             Spacer()
             Text("Code snippet:")
             CodeView("""
             Button("Tap to change color") {
               useRedText.toggle()
             }
-            .foregroundColor(useRedText ? .red : .blue)
+            .foregroundStyle(useRedText ? .red : .blue)
             """)
             Spacer()
             Spacer()

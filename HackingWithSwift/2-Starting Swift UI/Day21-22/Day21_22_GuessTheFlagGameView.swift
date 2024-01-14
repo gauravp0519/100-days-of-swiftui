@@ -28,7 +28,7 @@ struct Day21_22_GuessTheFlagGameView: View {
                 Spacer()
 
                 Text("Guess the flag")
-                    .foregroundColor(.white)
+                    .foregroundStyle(.white)
                     .font(.largeTitle.bold())
 
                 VStack(spacing: 15) {
