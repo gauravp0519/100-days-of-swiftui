@@ -68,6 +68,15 @@
 		6696F9712B1B99E100CFFCCF /* Day19_VolumeConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696F9702B1B99E100CFFCCF /* Day19_VolumeConversionView.swift */; };
 		669AB0572B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0562B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift */; };
 		669AB0592B5391E10087ECCD /* Dat23_24_CustomContainersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0582B5391E10087ECCD /* Dat23_24_CustomContainersView.swift */; };
+		669AB05E2B5494890087ECCD /* Day26View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB05D2B5494890087ECCD /* Day26View.swift */; };
+		669AB0602B5494930087ECCD /* Day27View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB05F2B5494930087ECCD /* Day27View.swift */; };
+		669AB0622B5494C30087ECCD /* Day26_StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0612B5494C30087ECCD /* Day26_StepperView.swift */; };
+		669AB0642B5496790087ECCD /* Day26_DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0632B5496790087ECCD /* Day26_DatePickerView.swift */; };
+		669AB0662B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0652B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift */; };
+		66CD27652B5B803F007F5DF1 /* Day27_BasicLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */; };
+		66CD27672B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */; };
+		66CD27692B5B8498007F5DF1 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */; };
+		66CD276D2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD276C2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +162,15 @@
 		6696F9702B1B99E100CFFCCF /* Day19_VolumeConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19_VolumeConversionView.swift; sourceTree = "<group>"; };
 		669AB0562B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_23_24_ViewGroupsView.swift; sourceTree = "<group>"; };
 		669AB0582B5391E10087ECCD /* Dat23_24_CustomContainersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dat23_24_CustomContainersView.swift; sourceTree = "<group>"; };
+		669AB05D2B5494890087ECCD /* Day26View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26View.swift; sourceTree = "<group>"; };
+		669AB05F2B5494930087ECCD /* Day27View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27View.swift; sourceTree = "<group>"; };
+		669AB0612B5494C30087ECCD /* Day26_StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26_StepperView.swift; sourceTree = "<group>"; };
+		669AB0632B5496790087ECCD /* Day26_DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26_DatePickerView.swift; sourceTree = "<group>"; };
+		669AB0652B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26_DateTimeFormattersView.swift; sourceTree = "<group>"; };
+		66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_BasicLayoutView.swift; sourceTree = "<group>"; };
+		66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_ConnectCoreMLView.swift; sourceTree = "<group>"; };
+		66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		66CD276C2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_CleanUpBetterRestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +289,7 @@
 				667023EF2B1C5735003328D5 /* Extensions */,
 				6696F94B2B1AFA4700CFFCCF /* 1-Introduction to Swift */,
 				6696F94C2B1AFA5D00CFFCCF /* 2-Starting Swift UI */,
+				669AB05A2B5490CD0087ECCD /* 3-Expanding Your Skills */,
 				6696F9102B1A4CB800CFFCCF /* Assets.xcassets */,
 				6696F9122B1A4CB800CFFCCF /* Preview Content */,
 			);
@@ -361,6 +380,38 @@
 				6696F9702B1B99E100CFFCCF /* Day19_VolumeConversionView.swift */,
 			);
 			path = Day19;
+			sourceTree = "<group>";
+		};
+		669AB05A2B5490CD0087ECCD /* 3-Expanding Your Skills */ = {
+			isa = PBXGroup;
+			children = (
+				669AB05B2B54946D0087ECCD /* Day26 */,
+				669AB05C2B5494750087ECCD /* Day27 */,
+			);
+			path = "3-Expanding Your Skills";
+			sourceTree = "<group>";
+		};
+		669AB05B2B54946D0087ECCD /* Day26 */ = {
+			isa = PBXGroup;
+			children = (
+				669AB05D2B5494890087ECCD /* Day26View.swift */,
+				669AB0612B5494C30087ECCD /* Day26_StepperView.swift */,
+				669AB0632B5496790087ECCD /* Day26_DatePickerView.swift */,
+				669AB0652B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift */,
+			);
+			path = Day26;
+			sourceTree = "<group>";
+		};
+		669AB05C2B5494750087ECCD /* Day27 */ = {
+			isa = PBXGroup;
+			children = (
+				669AB05F2B5494930087ECCD /* Day27View.swift */,
+				66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */,
+				66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */,
+				66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */,
+				66CD276C2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift */,
+			);
+			path = Day27;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -517,6 +568,7 @@
 			files = (
 				661E29A92B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift in Sources */,
 				663C91F62B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift in Sources */,
+				669AB0662B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift in Sources */,
 				6696F94A2B1AEF4400CFFCCF /* Day6View.swift in Sources */,
 				6696F9522B1B77F100CFFCCF /* Day16View.swift in Sources */,
 				6696F9662B1B931900CFFCCF /* Day17_18_HidingKeyboardView.swift in Sources */,
@@ -527,6 +579,7 @@
 				661E299D2B3D55D1000CFAA0 /* Day23_24_SwiftUIView.swift in Sources */,
 				667024042B1D9B3D003328D5 /* Day20_AngularGradientView.swift in Sources */,
 				6696F96D2B1B99C100CFFCCF /* Day19_LengthConversionView.swift in Sources */,
+				669AB0602B5494930087ECCD /* Day27View.swift in Sources */,
 				663C91F42B4F99620050C08B /* Text+Extensions.swift in Sources */,
 				661E29A12B3D568A000CFAA0 /* Day23_24_ConditionalModifiersView.swift in Sources */,
 				661E29A32B3D56C9000CFAA0 /* Day23_24_EnvModifiersView.swift in Sources */,
@@ -536,10 +589,13 @@
 				661E29992B3D530E000CFAA0 /* Day23_24View.swift in Sources */,
 				6643546E2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift in Sources */,
 				669AB0592B5391E10087ECCD /* Dat23_24_CustomContainersView.swift in Sources */,
+				66CD276D2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift in Sources */,
 				6696F9572B1B7A1400CFFCCF /* Day16_StateView.swift in Sources */,
+				669AB05E2B5494890087ECCD /* Day26View.swift in Sources */,
 				6696F90D2B1A4CB700CFFCCF /* HackingWithSwiftApp.swift in Sources */,
 				669AB0572B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift in Sources */,
 				6696F9642B1B8D7200CFFCCF /* Day17_18_CheckSplittingView.swift in Sources */,
+				669AB0622B5494C30087ECCD /* Day26_StepperView.swift in Sources */,
 				667024022B1D9A06003328D5 /* Day20_RadialGradientView.swift in Sources */,
 				6696F96B2B1B99B300CFFCCF /* Day19_TemperatureConversionView.swift in Sources */,
 				667023FC2B1D9620003328D5 /* Day20_ColorsAndFramesViews.swift in Sources */,
@@ -552,6 +608,7 @@
 				6696F93A2B1A4FAE00CFFCCF /* SelectionView.swift in Sources */,
 				6696F9482B1AEE2300CFFCCF /* OutputView.swift in Sources */,
 				6696F93C2B1A53E800CFFCCF /* Day1View.swift in Sources */,
+				66CD27652B5B803F007F5DF1 /* Day27_BasicLayoutView.swift in Sources */,
 				6696F9502B1B76F000CFFCCF /* Day16_FormView.swift in Sources */,
 				661E299B2B3D5591000CFAA0 /* Day23_24_WhyStructsView.swift in Sources */,
 				6696F96F2B1B99D300CFFCCF /* Day19_TimeConversionView.swift in Sources */,
@@ -560,8 +617,11 @@
 				664354702B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift in Sources */,
 				6696F9442B1AE81F00CFFCCF /* CodeView.swift in Sources */,
 				667023FA2B1D798A003328D5 /* Day20_ZStackView.swift in Sources */,
+				66CD27692B5B8498007F5DF1 /* SleepCalculator.mlmodel in Sources */,
 				6696F9712B1B99E100CFFCCF /* Day19_VolumeConversionView.swift in Sources */,
+				669AB0642B5496790087ECCD /* Day26_DatePickerView.swift in Sources */,
 				6696F9592B1B7AEA00CFFCCF /* Day16_BindingStateView.swift in Sources */,
+				66CD27672B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift in Sources */,
 				661E299F2B3D55F7000CFAA0 /* Day23_24_ModifierOrderView.swift in Sources */,
 				6696F9552B1B799F00CFFCCF /* Day16_NavigationBarView.swift in Sources */,
 				6696F9422B1AE0C500CFFCCF /* Constants.swift in Sources */,

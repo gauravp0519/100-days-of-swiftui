@@ -41,7 +41,7 @@ struct Day23_24View: View {
               view: AnyView(Day23_24_CustomCompositionView())),
         .init(title: "Custom containers",
               description: "Creating GridStack using generics",
-              view: AnyView(Day23_24_CustomCompositionView())),
+              view: AnyView(Dat23_24_CustomContainersView())),
     ]
 
     var body: some View {

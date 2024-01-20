@@ -53,6 +53,14 @@ struct SelectionView: View {
                   description: "How SwiftUI actually works internally?",
                   view: AnyView(Day23_24View())),
         ]),
+        .init(title: "Expanding Your Skills", items: [
+            .init(title: "Day 26",
+                  description: "#BetterRest, part 1",
+                  view: AnyView(Day26View())),
+            .init(title: "Day 27",
+                  description: "#BetterRest, part 2",
+                  view: AnyView(Day27View())),
+        ]),
     ]
 
     var body: some View {
