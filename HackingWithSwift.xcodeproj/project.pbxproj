@@ -23,6 +23,8 @@
 		6643546C2B2195330016FE5A /* Day21_22_FlagStylingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643546B2B2195330016FE5A /* Day21_22_FlagStylingView.swift */; };
 		6643546E2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643546D2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift */; };
 		664354702B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643546F2B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift */; };
+		6659AE872B5DF69E006A26D1 /* Day28View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659AE862B5DF69E006A26D1 /* Day28View.swift */; };
+		6659AE892B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659AE882B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift */; };
 		667023F12B1C5743003328D5 /* UnitLength+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667023F02B1C5743003328D5 /* UnitLength+Extensions.swift */; };
 		667023F52B1CE4C1003328D5 /* Dimension+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667023F42B1CE4C1003328D5 /* Dimension+Extensions.swift */; };
 		667023F82B1D792C003328D5 /* Day20View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667023F72B1D792C003328D5 /* Day20View.swift */; };
@@ -76,7 +78,7 @@
 		66CD27652B5B803F007F5DF1 /* Day27_BasicLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */; };
 		66CD27672B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */; };
 		66CD27692B5B8498007F5DF1 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */; };
-		66CD276D2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD276C2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift */; };
+		66CD276D2B5B8969007F5DF1 /* Day27_BetterRestFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD276C2B5B8969007F5DF1 /* Day27_BetterRestFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,8 @@
 		6643546B2B2195330016FE5A /* Day21_22_FlagStylingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_FlagStylingView.swift; sourceTree = "<group>"; };
 		6643546D2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_UpgradingDesignView.swift; sourceTree = "<group>"; };
 		6643546F2B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_GuessTheFlagGameView.swift; sourceTree = "<group>"; };
+		6659AE862B5DF69E006A26D1 /* Day28View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day28View.swift; sourceTree = "<group>"; };
+		6659AE882B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day28_BetterRestSectionView.swift; sourceTree = "<group>"; };
 		667023F02B1C5743003328D5 /* UnitLength+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnitLength+Extensions.swift"; sourceTree = "<group>"; };
 		667023F42B1CE4C1003328D5 /* Dimension+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dimension+Extensions.swift"; sourceTree = "<group>"; };
 		667023F72B1D792C003328D5 /* Day20View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day20View.swift; sourceTree = "<group>"; };
@@ -170,7 +174,7 @@
 		66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_BasicLayoutView.swift; sourceTree = "<group>"; };
 		66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_ConnectCoreMLView.swift; sourceTree = "<group>"; };
 		66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
-		66CD276C2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_CleanUpBetterRestView.swift; sourceTree = "<group>"; };
+		66CD276C2B5B8969007F5DF1 /* Day27_BetterRestFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_BetterRestFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +219,15 @@
 				669AB0582B5391E10087ECCD /* Dat23_24_CustomContainersView.swift */,
 			);
 			path = Day23;
+			sourceTree = "<group>";
+		};
+		6659AE852B5DF678006A26D1 /* Day28 */ = {
+			isa = PBXGroup;
+			children = (
+				6659AE862B5DF69E006A26D1 /* Day28View.swift */,
+				6659AE882B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift */,
+			);
+			path = Day28;
 			sourceTree = "<group>";
 		};
 		667023EF2B1C5735003328D5 /* Extensions */ = {
@@ -387,6 +400,7 @@
 			children = (
 				669AB05B2B54946D0087ECCD /* Day26 */,
 				669AB05C2B5494750087ECCD /* Day27 */,
+				6659AE852B5DF678006A26D1 /* Day28 */,
 			);
 			path = "3-Expanding Your Skills";
 			sourceTree = "<group>";
@@ -409,7 +423,7 @@
 				66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */,
 				66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */,
 				66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */,
-				66CD276C2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift */,
+				66CD276C2B5B8969007F5DF1 /* Day27_BetterRestFormView.swift */,
 			);
 			path = Day27;
 			sourceTree = "<group>";
@@ -581,6 +595,7 @@
 				6696F96D2B1B99C100CFFCCF /* Day19_LengthConversionView.swift in Sources */,
 				669AB0602B5494930087ECCD /* Day27View.swift in Sources */,
 				663C91F42B4F99620050C08B /* Text+Extensions.swift in Sources */,
+				6659AE892B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift in Sources */,
 				661E29A12B3D568A000CFAA0 /* Day23_24_ConditionalModifiersView.swift in Sources */,
 				661E29A32B3D56C9000CFAA0 /* Day23_24_EnvModifiersView.swift in Sources */,
 				664354682B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift in Sources */,
@@ -589,7 +604,7 @@
 				661E29992B3D530E000CFAA0 /* Day23_24View.swift in Sources */,
 				6643546E2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift in Sources */,
 				669AB0592B5391E10087ECCD /* Dat23_24_CustomContainersView.swift in Sources */,
-				66CD276D2B5B8969007F5DF1 /* Day27_CleanUpBetterRestView.swift in Sources */,
+				66CD276D2B5B8969007F5DF1 /* Day27_BetterRestFormView.swift in Sources */,
 				6696F9572B1B7A1400CFFCCF /* Day16_StateView.swift in Sources */,
 				669AB05E2B5494890087ECCD /* Day26View.swift in Sources */,
 				6696F90D2B1A4CB700CFFCCF /* HackingWithSwiftApp.swift in Sources */,
@@ -627,6 +642,7 @@
 				6696F9422B1AE0C500CFFCCF /* Constants.swift in Sources */,
 				6696F95D2B1B7C5700CFFCCF /* Day16_PickerView.swift in Sources */,
 				6643546C2B2195330016FE5A /* Day21_22_FlagStylingView.swift in Sources */,
+				6659AE872B5DF69E006A26D1 /* Day28View.swift in Sources */,
 				667024002B1D98B6003328D5 /* Day20_LinearGradientView.swift in Sources */,
 				667023F12B1C5743003328D5 /* UnitLength+Extensions.swift in Sources */,
 				6696F9692B1B946F00CFFCCF /* Day19View.swift in Sources */,

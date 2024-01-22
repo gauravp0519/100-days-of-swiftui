@@ -1,5 +1,5 @@
 //
-//  Day27_CleanUpBetterRestView.swift
+//  Day27_BetterRestFormView.swift
 //  HackingWithSwift
 //
 //  Created by Gaurav Pahwa on 2024-01-19.
@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreML
 
-struct Day27_CleanUpBetterRestView: View {
+struct Day27_BetterRestFormView: View {
     @State private var wakeUp: Date = {
         var components = DateComponents()
         components.hour = 7
@@ -81,5 +81,5 @@ struct Day27_CleanUpBetterRestView: View {
 }
 
 #Preview {
-    Day27_CleanUpBetterRestView()
+    Day27_BetterRestFormView()
 }

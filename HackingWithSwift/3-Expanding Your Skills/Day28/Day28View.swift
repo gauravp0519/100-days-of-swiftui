@@ -1,23 +1,17 @@
 //
-//  Day27View.swift
+//  Day28View.swift
 //  HackingWithSwift
 //
-//  Created by Gaurav Pahwa on 2024-01-14.
+//  Created by Gaurav Pahwa on 2024-01-21.
 //
 
 import SwiftUI
 
-struct Day27View: View {
+struct Day28View: View {
     private let items: [ItemModel] = [
-        .init(title: "Basic layout",
+        .init(title: "BetterRest - using Section",
               description: "",
-              view: AnyView(Day27_BasicLayoutView())),
-        .init(title: "Connect CoreML",
-              description: "",
-              view: AnyView(Day27_ConnectCoreMLView())),
-        .init(title: "BetterRest - using Form",
-              description: "",
-              view: AnyView(Day27_BetterRestFormView())),
+              view: AnyView(Day28_BetterRestSectionView())),
     ]
 
     var body: some View {
@@ -38,10 +32,10 @@ struct Day27View: View {
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle("Day 27")
+        .navigationTitle("Day 28")
     }
 }
 
 #Preview {
-    Day27View()
+    Day28View()
 }
