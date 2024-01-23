@@ -60,6 +60,18 @@ struct SelectionView: View {
             .init(title: "Day 27",
                   description: "#BetterRest, part 2",
                   view: AnyView(Day27View())),
+            .init(title: "Day 28",
+                  description: "#BetterRest, part 3",
+                  view: AnyView(Day28View())),
+            .init(title: "Day 29",
+                  description: "#WordScramble, part 1",
+                  view: AnyView(Day29View())),
+            .init(title: "Day 30",
+                  description: "#WordScramble, part 2",
+                  view: AnyView(Day30View())),
+            .init(title: "Day 31",
+                  description: "#WordScramble, part 3",
+                  view: AnyView(Day31View())),
         ]),
     ]
 
