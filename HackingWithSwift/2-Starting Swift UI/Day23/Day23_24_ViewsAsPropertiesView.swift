@@ -19,9 +19,11 @@ struct Day23_24_ViewsAsPropertiesView: View {
     private var nameTextField: some View {
         TextField("Name", text: $name)
     }
+
     private var ageTextField: some View {
         TextField("Age", value: $age, format: .number)
     }
+
     private var outputText: some View {
         Text("Output: **\(name) is \(age) year(s) old**")
     }

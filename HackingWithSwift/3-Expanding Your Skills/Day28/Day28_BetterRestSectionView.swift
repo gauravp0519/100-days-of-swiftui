@@ -5,8 +5,8 @@
 //  Created by Gaurav Pahwa on 2024-01-21.
 //
 
-import SwiftUI
 import CoreML
+import SwiftUI
 
 struct Day28_BetterRestSectionView: View {
     @State private var wakeUp: Date = {
@@ -15,6 +15,7 @@ struct Day28_BetterRestSectionView: View {
         components.minute = 0
         return Calendar.current.date(from: components) ?? .now
     }()
+
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
 
@@ -25,11 +26,11 @@ struct Day28_BetterRestSectionView: View {
                     DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
                 }
                 Section("Desired amount of sleep") {
-                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
+                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4 ... 12, step: 0.25)
                 }
                 Section("Daily coffee intake") {
                     Picker("^[\(coffeeAmount) cup](inflect: true)", selection: $coffeeAmount) {
-                        ForEach(1...20, id: \.self) {
+                        ForEach(1 ... 20, id: \.self) {
                             Text("\($0)")
                         }
                     }
@@ -55,7 +56,7 @@ struct Day28_BetterRestSectionView: View {
             let hourInSeconds = (components.hour ?? 0) * 60 * 60
             let minuteInSeconds = (components.minute ?? 0) * 60
 
-            let prediction = try model.prediction(wake: Double((hourInSeconds + minuteInSeconds)), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
+            let prediction = try model.prediction(wake: Double(hourInSeconds + minuteInSeconds), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
             let sleepTime = wakeUp - prediction.actualSleep
 
             return sleepTime

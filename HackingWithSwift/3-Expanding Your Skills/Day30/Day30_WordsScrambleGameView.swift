@@ -35,9 +35,7 @@ struct Day30_WordsScrambleGameView: View {
                 }
             }
         }
-        .alert(errorTitle, isPresented: $showAlert, actions: {
-
-        }, message: {
+        .alert(errorTitle, isPresented: $showAlert, actions: {}, message: {
             Text(errorMessage)
         })
         .navigationTitle(rootWord)

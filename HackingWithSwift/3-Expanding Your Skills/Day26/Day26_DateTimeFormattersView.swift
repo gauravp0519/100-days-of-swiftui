@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-fileprivate extension Calendar.Component {
+private extension Calendar.Component {
     static var allCases: Set<Calendar.Component> {
         [.era, .year, .month, .day, .hour, .minute, .second, .weekday, .weekdayOrdinal, .quarter, .weekOfMonth, .weekOfYear, .yearForWeekOfYear, .nanosecond, .calendar, .timeZone]
     }

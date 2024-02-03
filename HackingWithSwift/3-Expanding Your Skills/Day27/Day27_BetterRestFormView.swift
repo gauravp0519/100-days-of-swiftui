@@ -5,8 +5,8 @@
 //  Created by Gaurav Pahwa on 2024-01-19.
 //
 
-import SwiftUI
 import CoreML
+import SwiftUI
 
 struct Day27_BetterRestFormView: View {
     @State private var wakeUp: Date = {
@@ -15,6 +15,7 @@ struct Day27_BetterRestFormView: View {
         components.minute = 0
         return Calendar.current.date(from: components) ?? .now
     }()
+
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
     @State private var alertTitle: String = ""
@@ -36,18 +37,18 @@ struct Day27_BetterRestFormView: View {
                     Text("Desired amount of sleep")
                         .font(.headline)
 
-                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
+                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4 ... 12, step: 0.25)
                 }
 
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Daily coffee intake")
                         .font(.headline)
 
-                    Stepper("^[\(coffeeAmount) cup](inflect: true)", value: $coffeeAmount, in: 1...20)
+                    Stepper("^[\(coffeeAmount) cup](inflect: true)", value: $coffeeAmount, in: 1 ... 20)
                 }
             }
             .alert(alertTitle, isPresented: $showingAlert, actions: {
-                Button("OK") { }
+                Button("OK") {}
             }, message: {
                 Text(alertMessage)
             })
@@ -66,7 +67,7 @@ struct Day27_BetterRestFormView: View {
             let hourInSeconds = (components.hour ?? 0) * 60 * 60
             let minuteInSeconds = (components.minute ?? 0) * 60
 
-            let prediction = try model.prediction(wake: Double((hourInSeconds + minuteInSeconds)), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
+            let prediction = try model.prediction(wake: Double(hourInSeconds + minuteInSeconds), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
             let sleepTime = wakeUp - prediction.actualSleep
 
             alertTitle = "Your ideal bedtime is…"

@@ -37,9 +37,7 @@ struct Day31_WordsScrambleCompleteGameView: View {
                 }
             }
         }
-        .alert(errorTitle, isPresented: $showAlert, actions: {
-
-        }, message: {
+        .alert(errorTitle, isPresented: $showAlert, actions: {}, message: {
             Text(errorMessage)
         })
         .toolbar(content: {
@@ -104,7 +102,7 @@ struct Day31_WordsScrambleCompleteGameView: View {
         score += 1
         newWord = ""
     }
-    
+
     func isTooShort(word: String) -> Bool {
         word.count < 3
     }

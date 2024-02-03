@@ -26,7 +26,7 @@ struct Day26_DatePickerView: View {
             DatePicker("Please enter a date", selection: $wakeUpTimeStamp, in: Date.now..., displayedComponents: .date)
                 .labelsHidden()
             Divider()
-            DatePicker("Please enter a date", selection: $wakeUpTimeStamp, in: Date.now...Date.now.addingTimeInterval(86400 * 5), displayedComponents: .date)
+            DatePicker("Please enter a date", selection: $wakeUpTimeStamp, in: Date.now ... Date.now.addingTimeInterval(86400 * 5), displayedComponents: .date)
                 .labelsHidden()
         }
         .padding()

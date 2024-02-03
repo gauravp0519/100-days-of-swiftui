@@ -14,9 +14,9 @@ struct GridStack<Content: View>: View {
 
     var body: some View {
         VStack {
-            ForEach(0..<rows, id: \.self) { row  in
+            ForEach(0 ..< rows, id: \.self) { row in
                 HStack {
-                    ForEach(0..<columns, id: \.self) { column in
+                    ForEach(0 ..< columns, id: \.self) { column in
                         content(row, column)
                     }
                 }

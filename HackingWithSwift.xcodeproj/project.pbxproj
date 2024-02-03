@@ -16,6 +16,8 @@
 		661E29A52B3D5765000CFAA0 /* Day23_24_ViewsAsPropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E29A42B3D5765000CFAA0 /* Day23_24_ViewsAsPropertiesView.swift */; };
 		661E29A72B3D577F000CFAA0 /* Day23_24_ViewCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E29A62B3D577F000CFAA0 /* Day23_24_ViewCompositionView.swift */; };
 		661E29A92B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E29A82B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift */; };
+		662189C22B6C80C100BA69ED /* Day33_CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C12B6C80C100BA69ED /* Day33_CustomTransitionsView.swift */; };
+		662189C42B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C32B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift */; };
 		663C91F42B4F99620050C08B /* Text+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C91F32B4F99620050C08B /* Text+Extensions.swift */; };
 		663C91F62B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C91F52B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift */; };
 		664354682B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664354672B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift */; };
@@ -81,6 +83,17 @@
 		669AB0622B5494C30087ECCD /* Day26_StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0612B5494C30087ECCD /* Day26_StepperView.swift */; };
 		669AB0642B5496790087ECCD /* Day26_DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0632B5496790087ECCD /* Day26_DatePickerView.swift */; };
 		669AB0662B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AB0652B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift */; };
+		66A304052B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A304042B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift */; };
+		66A304072B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A304062B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift */; };
+		66A304092B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A304082B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift */; };
+		66C40E962B60AE6F006C04B3 /* Day32View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E952B60AE6F006C04B3 /* Day32View.swift */; };
+		66C40E982B60AE78006C04B3 /* Day33View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E972B60AE78006C04B3 /* Day33View.swift */; };
+		66C40E9A2B60AE80006C04B3 /* Day34View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E992B60AE80006C04B3 /* Day34View.swift */; };
+		66C40E9C2B60AEE9006C04B3 /* Day32_ImplicitAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E9B2B60AEE9006C04B3 /* Day32_ImplicitAnimationsView.swift */; };
+		66C40E9E2B60B05A006C04B3 /* Day32_CustomizingAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E9D2B60B05A006C04B3 /* Day32_CustomizingAnimationsView.swift */; };
+		66C40EA02B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E9F2B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift */; };
+		66C40EA22B60B724006C04B3 /* Day32_ExplicitAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40EA12B60B724006C04B3 /* Day32_ExplicitAnimationsView.swift */; };
+		66C40EA42B60BBFC006C04B3 /* Day33_AnimationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40EA32B60BBFC006C04B3 /* Day33_AnimationStackView.swift */; };
 		66CD27652B5B803F007F5DF1 /* Day27_BasicLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */; };
 		66CD27672B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */; };
 		66CD27692B5B8498007F5DF1 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */; };
@@ -119,6 +132,8 @@
 		661E29A42B3D5765000CFAA0 /* Day23_24_ViewsAsPropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_ViewsAsPropertiesView.swift; sourceTree = "<group>"; };
 		661E29A62B3D577F000CFAA0 /* Day23_24_ViewCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_ViewCompositionView.swift; sourceTree = "<group>"; };
 		661E29A82B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_CustomCompositionView.swift; sourceTree = "<group>"; };
+		662189C12B6C80C100BA69ED /* Day33_CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_CustomTransitionsView.swift; sourceTree = "<group>"; };
+		662189C32B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day34_GuessTheFlagGameView.swift; sourceTree = "<group>"; };
 		663C91F32B4F99620050C08B /* Text+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extensions.swift"; sourceTree = "<group>"; };
 		663C91F52B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_SomeViewTypeView.swift; sourceTree = "<group>"; };
 		664354672B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_StackingFlagButtonsView.swift; sourceTree = "<group>"; };
@@ -188,6 +203,17 @@
 		669AB0612B5494C30087ECCD /* Day26_StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26_StepperView.swift; sourceTree = "<group>"; };
 		669AB0632B5496790087ECCD /* Day26_DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26_DatePickerView.swift; sourceTree = "<group>"; };
 		669AB0652B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day26_DateTimeFormattersView.swift; sourceTree = "<group>"; };
+		66A304042B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_AnimatingGesturesRectView.swift; sourceTree = "<group>"; };
+		66A304062B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_AnimatingGesturesLettersView.swift; sourceTree = "<group>"; };
+		66A304082B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_ViewVisibilityTransitionView.swift; sourceTree = "<group>"; };
+		66C40E952B60AE6F006C04B3 /* Day32View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day32View.swift; sourceTree = "<group>"; };
+		66C40E972B60AE78006C04B3 /* Day33View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33View.swift; sourceTree = "<group>"; };
+		66C40E992B60AE80006C04B3 /* Day34View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day34View.swift; sourceTree = "<group>"; };
+		66C40E9B2B60AEE9006C04B3 /* Day32_ImplicitAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day32_ImplicitAnimationsView.swift; sourceTree = "<group>"; };
+		66C40E9D2B60B05A006C04B3 /* Day32_CustomizingAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day32_CustomizingAnimationsView.swift; sourceTree = "<group>"; };
+		66C40E9F2B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day32_AnimatingBindingsView.swift; sourceTree = "<group>"; };
+		66C40EA12B60B724006C04B3 /* Day32_ExplicitAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day32_ExplicitAnimationsView.swift; sourceTree = "<group>"; };
+		66C40EA32B60BBFC006C04B3 /* Day33_AnimationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_AnimationStackView.swift; sourceTree = "<group>"; };
 		66CD27642B5B803F007F5DF1 /* Day27_BasicLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_BasicLayoutView.swift; sourceTree = "<group>"; };
 		66CD27662B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day27_ConnectCoreMLView.swift; sourceTree = "<group>"; };
 		66CD27682B5B8498007F5DF1 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
@@ -439,6 +465,9 @@
 				6659AE8A2B5E02F7006A26D1 /* Day29 */,
 				66F0474E2B5F52EC00E9C3C3 /* Day30 */,
 				66F047552B5F67B900E9C3C3 /* Day31 */,
+				66C40E922B60AE34006C04B3 /* Day32 */,
+				66C40E932B60AE3A006C04B3 /* Day33 */,
+				66C40E942B60AE3F006C04B3 /* Day34 */,
 			);
 			path = "3-Expanding Your Skills";
 			sourceTree = "<group>";
@@ -480,6 +509,40 @@
 				6659AE912B5E064C006A26D1 /* start.txt */,
 			);
 			path = resources;
+			sourceTree = "<group>";
+		};
+		66C40E922B60AE34006C04B3 /* Day32 */ = {
+			isa = PBXGroup;
+			children = (
+				66C40E952B60AE6F006C04B3 /* Day32View.swift */,
+				66C40E9B2B60AEE9006C04B3 /* Day32_ImplicitAnimationsView.swift */,
+				66C40E9D2B60B05A006C04B3 /* Day32_CustomizingAnimationsView.swift */,
+				66C40E9F2B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift */,
+				66C40EA12B60B724006C04B3 /* Day32_ExplicitAnimationsView.swift */,
+			);
+			path = Day32;
+			sourceTree = "<group>";
+		};
+		66C40E932B60AE3A006C04B3 /* Day33 */ = {
+			isa = PBXGroup;
+			children = (
+				66C40E972B60AE78006C04B3 /* Day33View.swift */,
+				66C40EA32B60BBFC006C04B3 /* Day33_AnimationStackView.swift */,
+				66A304042B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift */,
+				66A304062B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift */,
+				66A304082B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift */,
+				662189C12B6C80C100BA69ED /* Day33_CustomTransitionsView.swift */,
+			);
+			path = Day33;
+			sourceTree = "<group>";
+		};
+		66C40E942B60AE3F006C04B3 /* Day34 */ = {
+			isa = PBXGroup;
+			children = (
+				66C40E992B60AE80006C04B3 /* Day34View.swift */,
+				662189C32B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift */,
+			);
+			path = Day34;
 			sourceTree = "<group>";
 		};
 		66F0474E2B5F52EC00E9C3C3 /* Day30 */ = {
@@ -659,11 +722,14 @@
 				669AB0662B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift in Sources */,
 				6696F94A2B1AEF4400CFFCCF /* Day6View.swift in Sources */,
 				6696F9522B1B77F100CFFCCF /* Day16View.swift in Sources */,
+				66C40E9C2B60AEE9006C04B3 /* Day32_ImplicitAnimationsView.swift in Sources */,
 				6696F9662B1B931900CFFCCF /* Day17_18_HidingKeyboardView.swift in Sources */,
 				6670240A2B1DA63D003328D5 /* Day20_AlertView.swift in Sources */,
 				6696F95B2B1B7BB200CFFCCF /* Day16_LoopView.swift in Sources */,
 				667023F52B1CE4C1003328D5 /* Dimension+Extensions.swift in Sources */,
 				6696F9622B1B83B800CFFCCF /* Day17_18_FormattingTextView.swift in Sources */,
+				66C40EA02B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift in Sources */,
+				66A304052B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift in Sources */,
 				661E299D2B3D55D1000CFAA0 /* Day23_24_SwiftUIView.swift in Sources */,
 				667024042B1D9B3D003328D5 /* Day20_AngularGradientView.swift in Sources */,
 				6696F96D2B1B99C100CFFCCF /* Day19_LengthConversionView.swift in Sources */,
@@ -674,6 +740,7 @@
 				661E29A32B3D56C9000CFAA0 /* Day23_24_EnvModifiersView.swift in Sources */,
 				664354682B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift in Sources */,
 				6696F9602B1B7CEF00CFFCCF /* Day17_18View.swift in Sources */,
+				66A304092B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift in Sources */,
 				6696F94E2B1AFA9600CFFCCF /* Day16_HelloWorldView.swift in Sources */,
 				66F047502B5F575200E9C3C3 /* Day30View.swift in Sources */,
 				661E29992B3D530E000CFAA0 /* Day23_24View.swift in Sources */,
@@ -681,6 +748,7 @@
 				6659AE8E2B5E0352006A26D1 /* Day29_DynamicContentListView.swift in Sources */,
 				669AB0592B5391E10087ECCD /* Dat23_24_CustomContainersView.swift in Sources */,
 				66CD276D2B5B8969007F5DF1 /* Day27_BetterRestFormView.swift in Sources */,
+				662189C22B6C80C100BA69ED /* Day33_CustomTransitionsView.swift in Sources */,
 				6696F9572B1B7A1400CFFCCF /* Day16_StateView.swift in Sources */,
 				66F047522B5F579800E9C3C3 /* Day30_WordListView.swift in Sources */,
 				669AB05E2B5494890087ECCD /* Day26View.swift in Sources */,
@@ -696,6 +764,7 @@
 				667023F82B1D792C003328D5 /* Day20View.swift in Sources */,
 				6670240D2B1DA82C003328D5 /* Day21_22View.swift in Sources */,
 				6659AE962B5E0B69006A26D1 /* Day29_MisspelledWordView.swift in Sources */,
+				66C40E9A2B60AE80006C04B3 /* Day34View.swift in Sources */,
 				667023FE2B1D979A003328D5 /* Day20_BackgroundMaterialView.swift in Sources */,
 				667024062B1D9CFD003328D5 /* Day20_ButtonsView.swift in Sources */,
 				661E29A72B3D577F000CFAA0 /* Day23_24_ViewCompositionView.swift in Sources */,
@@ -711,13 +780,18 @@
 				661E29A52B3D5765000CFAA0 /* Day23_24_ViewsAsPropertiesView.swift in Sources */,
 				667024082B1DA0C7003328D5 /* Day20_CustomButtonsView.swift in Sources */,
 				664354702B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift in Sources */,
+				66A304072B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift in Sources */,
 				6659AE8C2B5E0305006A26D1 /* Day29View.swift in Sources */,
 				6696F9442B1AE81F00CFFCCF /* CodeView.swift in Sources */,
+				66C40EA42B60BBFC006C04B3 /* Day33_AnimationStackView.swift in Sources */,
 				667023FA2B1D798A003328D5 /* Day20_ZStackView.swift in Sources */,
 				66CD27692B5B8498007F5DF1 /* SleepCalculator.mlmodel in Sources */,
 				6696F9712B1B99E100CFFCCF /* Day19_VolumeConversionView.swift in Sources */,
+				66C40E9E2B60B05A006C04B3 /* Day32_CustomizingAnimationsView.swift in Sources */,
+				66C40E982B60AE78006C04B3 /* Day33View.swift in Sources */,
 				669AB0642B5496790087ECCD /* Day26_DatePickerView.swift in Sources */,
 				6696F9592B1B7AEA00CFFCCF /* Day16_BindingStateView.swift in Sources */,
+				66C40E962B60AE6F006C04B3 /* Day32View.swift in Sources */,
 				66CD27672B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift in Sources */,
 				661E299F2B3D55F7000CFAA0 /* Day23_24_ModifierOrderView.swift in Sources */,
 				6696F9552B1B799F00CFFCCF /* Day16_NavigationBarView.swift in Sources */,
@@ -729,8 +803,10 @@
 				667023F12B1C5743003328D5 /* UnitLength+Extensions.swift in Sources */,
 				6696F9692B1B946F00CFFCCF /* Day19View.swift in Sources */,
 				6696F9462B1AE98D00CFFCCF /* Day3View.swift in Sources */,
+				662189C42B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift in Sources */,
 				6659AE902B5E041B006A26D1 /* Day29_StaticAndDynamicContentListView.swift in Sources */,
 				6659AE942B5E0666006A26D1 /* Day29_LoadingBundleFileView.swift in Sources */,
+				66C40EA22B60B724006C04B3 /* Day32_ExplicitAnimationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -899,6 +975,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -928,6 +1005,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
