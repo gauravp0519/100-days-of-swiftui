@@ -18,6 +18,9 @@
 		661E29A92B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E29A82B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift */; };
 		662189C22B6C80C100BA69ED /* Day33_CustomTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C12B6C80C100BA69ED /* Day33_CustomTransitionsView.swift */; };
 		662189C42B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C32B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift */; };
+		662189C72B6DF4AB00BA69ED /* Day35View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C62B6DF4AB00BA69ED /* Day35View.swift */; };
+		662189C92B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C82B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift */; };
+		662189CB2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189CA2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift */; };
 		663C91F42B4F99620050C08B /* Text+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C91F32B4F99620050C08B /* Text+Extensions.swift */; };
 		663C91F62B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C91F52B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift */; };
 		664354682B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664354672B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift */; };
@@ -134,6 +137,9 @@
 		661E29A82B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_CustomCompositionView.swift; sourceTree = "<group>"; };
 		662189C12B6C80C100BA69ED /* Day33_CustomTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_CustomTransitionsView.swift; sourceTree = "<group>"; };
 		662189C32B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day34_GuessTheFlagGameView.swift; sourceTree = "<group>"; };
+		662189C62B6DF4AB00BA69ED /* Day35View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day35View.swift; sourceTree = "<group>"; };
+		662189C82B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day35_EdutainmentGameView.swift; sourceTree = "<group>"; };
+		662189CA2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day35_EdutainmentGameStartView.swift; sourceTree = "<group>"; };
 		663C91F32B4F99620050C08B /* Text+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extensions.swift"; sourceTree = "<group>"; };
 		663C91F52B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_SomeViewTypeView.swift; sourceTree = "<group>"; };
 		664354672B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_StackingFlagButtonsView.swift; sourceTree = "<group>"; };
@@ -267,6 +273,16 @@
 				669AB0582B5391E10087ECCD /* Dat23_24_CustomContainersView.swift */,
 			);
 			path = Day23;
+			sourceTree = "<group>";
+		};
+		662189C52B6DF48900BA69ED /* Day35 */ = {
+			isa = PBXGroup;
+			children = (
+				662189C62B6DF4AB00BA69ED /* Day35View.swift */,
+				662189C82B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift */,
+				662189CA2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift */,
+			);
+			path = Day35;
 			sourceTree = "<group>";
 		};
 		6659AE852B5DF678006A26D1 /* Day28 */ = {
@@ -468,6 +484,7 @@
 				66C40E922B60AE34006C04B3 /* Day32 */,
 				66C40E932B60AE3A006C04B3 /* Day33 */,
 				66C40E942B60AE3F006C04B3 /* Day34 */,
+				662189C52B6DF48900BA69ED /* Day35 */,
 			);
 			path = "3-Expanding Your Skills";
 			sourceTree = "<group>";
@@ -731,6 +748,7 @@
 				66C40EA02B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift in Sources */,
 				66A304052B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift in Sources */,
 				661E299D2B3D55D1000CFAA0 /* Day23_24_SwiftUIView.swift in Sources */,
+				662189C92B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift in Sources */,
 				667024042B1D9B3D003328D5 /* Day20_AngularGradientView.swift in Sources */,
 				6696F96D2B1B99C100CFFCCF /* Day19_LengthConversionView.swift in Sources */,
 				669AB0602B5494930087ECCD /* Day27View.swift in Sources */,
@@ -751,6 +769,7 @@
 				662189C22B6C80C100BA69ED /* Day33_CustomTransitionsView.swift in Sources */,
 				6696F9572B1B7A1400CFFCCF /* Day16_StateView.swift in Sources */,
 				66F047522B5F579800E9C3C3 /* Day30_WordListView.swift in Sources */,
+				662189C72B6DF4AB00BA69ED /* Day35View.swift in Sources */,
 				669AB05E2B5494890087ECCD /* Day26View.swift in Sources */,
 				6696F90D2B1A4CB700CFFCCF /* HackingWithSwiftApp.swift in Sources */,
 				669AB0572B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift in Sources */,
@@ -795,6 +814,7 @@
 				66CD27672B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift in Sources */,
 				661E299F2B3D55F7000CFAA0 /* Day23_24_ModifierOrderView.swift in Sources */,
 				6696F9552B1B799F00CFFCCF /* Day16_NavigationBarView.swift in Sources */,
+				662189CB2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift in Sources */,
 				6696F9422B1AE0C500CFFCCF /* Constants.swift in Sources */,
 				6696F95D2B1B7C5700CFFCCF /* Day16_PickerView.swift in Sources */,
 				6643546C2B2195330016FE5A /* Day21_22_FlagStylingView.swift in Sources */,

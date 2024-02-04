@@ -1,15 +1,15 @@
 //
-//  Day34View.swift
+//  Day35View.swift
 //  HackingWithSwift
 //
-//  Created by Gaurav Pahwa on 2024-01-23.
+//  Created by Gaurav Pahwa on 2024-02-02.
 //
 
 import SwiftUI
 
-struct Day34View: View {
+struct Day35View: View {
     private let items: [ItemModel] = [
-        .init(title: "Guess the flag", description: "flag animations", view: AnyView(Day34_GuessTheFlagGameView())),
+        .init(title: "Edutainment Game", description: "", view: AnyView(Day35_EdutainmentGameView())),
     ]
 
     var body: some View {
@@ -30,10 +30,10 @@ struct Day34View: View {
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle("Day 34")
+        .navigationTitle("Day 35")
     }
 }
 
 #Preview {
-    Day34View()
+    Day35View()
 }
