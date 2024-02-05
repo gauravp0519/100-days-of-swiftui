@@ -35,7 +35,7 @@ struct Day35_EdutainmentGameStartView: View {
     private let questionCount: UInt
     @State private var multiplicationNumbers: [UInt] = []
     @State private var answers: [Day35_Answer?] = []
-    @State private var currentQuestionCount: UInt = 1
+    @State private var currentQuestionCount: UInt = 0
     private var isPrevButtonDisabled: Bool {
         currentQuestionCount == 1
     }
@@ -54,53 +54,55 @@ struct Day35_EdutainmentGameStartView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            VStack {
-                Spacer()
-                HStack {
-                    Text("\(tableNumber) X \(multiplicationNumbers[Int(currentQuestionCount) - 1]) = ")
-                        .font(.largeTitle)
+            NavigationStack {
+                if currentQuestionCount >= 1 {
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Text("\(tableNumber) X \(multiplicationNumbers[Int(currentQuestionCount) - 1]) = ")
+                                .font(.largeTitle)
 
-                    TextField("?", value: $answeredNumber, format: .number)
-                        .multilineTextAlignment(.center)
-                        .frame(width: 80)
-                        .border(.black, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
-                        .font(.largeTitle)
-                        .cornerRadius(4)
-                        .keyboardType(.numberPad)
-                }
-                HStack {
-                    Button("Previous") {
-                        previousTapped()
-                    }
-                    .buttonStyle(CustomButtonStyle(isDisabled: isPrevButtonDisabled))
-                    .disabled(isPrevButtonDisabled)
-
-                    Button(isLastQuestion ? "Submit" : "Next") {
-                        validateAnswer()
-                        if isLastQuestion {
-                            submitTapped()
-                        } else {
-                            nextTapped()
+                            TextField("?", value: $answeredNumber, format: .number)
+                                .multilineTextAlignment(.center)
+                                .frame(width: 80)
+                                .border(.black, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                                .font(.largeTitle)
+                                .cornerRadius(4)
+                                .keyboardType(.numberPad)
                         }
+                        HStack {
+                            Button("Previous") {
+                                previousTapped()
+                            }
+                            .buttonStyle(CustomButtonStyle(isDisabled: isPrevButtonDisabled))
+                            .disabled(isPrevButtonDisabled)
+
+                            Button(isLastQuestion ? "Submit" : "Next") {
+                                validateAnswer()
+                                if isLastQuestion {
+                                    submitTapped()
+                                } else {
+                                    nextTapped()
+                                }
+                            }
+                            .buttonStyle(CustomButtonStyle(isDisabled: answeredNumber == nil))
+                            .disabled(answeredNumber == nil)
+                        }
+                        Spacer()
+                        Text("Question \(currentQuestionCount)/\(questionCount)")
                     }
-                    .buttonStyle(CustomButtonStyle(isDisabled: answeredNumber == nil))
-                    .disabled(answeredNumber == nil)
+                    .alert(alertTitle, isPresented: $isShowingAlert) {
+                        Button("Restart", role: .cancel) {
+                            restartGame()
+                        }
+                    } message: {
+                        Text(alertMessage)
+                    }
                 }
-                Spacer()
-                Text("Question \(currentQuestionCount)/\(questionCount)")
             }
-            .alert(alertTitle, isPresented: $isShowingAlert) {
-                Button("Restart", role: .cancel) {
-                    restartGame()
-                }
-            } message: {
-                Text(alertMessage)
-            }
-        }
-        .onAppear(perform: {
-            restartGame()
-        })
+            .onAppear(perform: {
+                restartGame()
+            })
     }
 
     private func previousTapped() {

@@ -81,9 +81,12 @@ struct SelectionView: View {
             .init(title: "Day 34",
                   description: "#Animation, part 2",
                   view: AnyView(Day34View())),
-            .init(title: "Day 35",
-                  description: "#NumberMultiplication",
-                  view: AnyView(Day35View())),
+        ]),
+        .init(title: "Consolidation", items: [
+            .init(title: "Day 35", description: "#NumberMultiplication", view: AnyView(Day35View()))
+        ]),
+        .init(title: "Scaling up to bigger apps", items: [
+            .init(title: "Day 36", description: "#iExpense, part 1", view: AnyView(Day36View()))
         ]),
     ]
 

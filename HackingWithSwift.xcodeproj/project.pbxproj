@@ -21,6 +21,14 @@
 		662189C72B6DF4AB00BA69ED /* Day35View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C62B6DF4AB00BA69ED /* Day35View.swift */; };
 		662189C92B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189C82B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift */; };
 		662189CB2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189CA2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift */; };
+		662189CF2B6FDB1B00BA69ED /* Day36View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189CE2B6FDB1B00BA69ED /* Day36View.swift */; };
+		662189D22B7065B600BA69ED /* Day36_@StateWithClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189D12B7065B600BA69ED /* Day36_@StateWithClassesView.swift */; };
+		662189D42B70680000BA69ED /* Day36_@ObservableClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189D32B70680000BA69ED /* Day36_@ObservableClassesView.swift */; };
+		662189D62B706D2A00BA69ED /* Day36_PresentingSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189D52B706D2A00BA69ED /* Day36_PresentingSheetView.swift */; };
+		662189DA2B706EAF00BA69ED /* Day36_DeletingItemsFromListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189D92B706EAF00BA69ED /* Day36_DeletingItemsFromListView.swift */; };
+		662189DC2B70712E00BA69ED /* Day36_AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189DB2B70712E00BA69ED /* Day36_AppStorageView.swift */; };
+		662189DE2B70720900BA69ED /* Day36_EncodingCodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189DD2B70720900BA69ED /* Day36_EncodingCodableView.swift */; };
+		662189E02B7072B200BA69ED /* Day36_DecodingCodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662189DF2B7072B200BA69ED /* Day36_DecodingCodableView.swift */; };
 		663C91F42B4F99620050C08B /* Text+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C91F32B4F99620050C08B /* Text+Extensions.swift */; };
 		663C91F62B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663C91F52B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift */; };
 		664354682B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664354672B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift */; };
@@ -140,6 +148,14 @@
 		662189C62B6DF4AB00BA69ED /* Day35View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day35View.swift; sourceTree = "<group>"; };
 		662189C82B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day35_EdutainmentGameView.swift; sourceTree = "<group>"; };
 		662189CA2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day35_EdutainmentGameStartView.swift; sourceTree = "<group>"; };
+		662189CE2B6FDB1B00BA69ED /* Day36View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day36View.swift; sourceTree = "<group>"; };
+		662189D12B7065B600BA69ED /* Day36_@StateWithClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day36_@StateWithClassesView.swift"; sourceTree = "<group>"; };
+		662189D32B70680000BA69ED /* Day36_@ObservableClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day36_@ObservableClassesView.swift"; sourceTree = "<group>"; };
+		662189D52B706D2A00BA69ED /* Day36_PresentingSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day36_PresentingSheetView.swift; sourceTree = "<group>"; };
+		662189D92B706EAF00BA69ED /* Day36_DeletingItemsFromListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day36_DeletingItemsFromListView.swift; sourceTree = "<group>"; };
+		662189DB2B70712E00BA69ED /* Day36_AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day36_AppStorageView.swift; sourceTree = "<group>"; };
+		662189DD2B70720900BA69ED /* Day36_EncodingCodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day36_EncodingCodableView.swift; sourceTree = "<group>"; };
+		662189DF2B7072B200BA69ED /* Day36_DecodingCodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day36_DecodingCodableView.swift; sourceTree = "<group>"; };
 		663C91F32B4F99620050C08B /* Text+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extensions.swift"; sourceTree = "<group>"; };
 		663C91F52B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_SomeViewTypeView.swift; sourceTree = "<group>"; };
 		664354672B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_StackingFlagButtonsView.swift; sourceTree = "<group>"; };
@@ -285,6 +301,37 @@
 			path = Day35;
 			sourceTree = "<group>";
 		};
+		662189CC2B6FDAB400BA69ED /* 4-Consolidation */ = {
+			isa = PBXGroup;
+			children = (
+				662189C52B6DF48900BA69ED /* Day35 */,
+			);
+			path = "4-Consolidation";
+			sourceTree = "<group>";
+		};
+		662189CD2B6FDAE500BA69ED /* 5-Scaling to Bigger Apps */ = {
+			isa = PBXGroup;
+			children = (
+				662189D02B6FDB4000BA69ED /* Day36 */,
+			);
+			path = "5-Scaling to Bigger Apps";
+			sourceTree = "<group>";
+		};
+		662189D02B6FDB4000BA69ED /* Day36 */ = {
+			isa = PBXGroup;
+			children = (
+				662189CE2B6FDB1B00BA69ED /* Day36View.swift */,
+				662189D12B7065B600BA69ED /* Day36_@StateWithClassesView.swift */,
+				662189D32B70680000BA69ED /* Day36_@ObservableClassesView.swift */,
+				662189D52B706D2A00BA69ED /* Day36_PresentingSheetView.swift */,
+				662189D92B706EAF00BA69ED /* Day36_DeletingItemsFromListView.swift */,
+				662189DB2B70712E00BA69ED /* Day36_AppStorageView.swift */,
+				662189DD2B70720900BA69ED /* Day36_EncodingCodableView.swift */,
+				662189DF2B7072B200BA69ED /* Day36_DecodingCodableView.swift */,
+			);
+			path = Day36;
+			sourceTree = "<group>";
+		};
 		6659AE852B5DF678006A26D1 /* Day28 */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +427,8 @@
 				6696F94B2B1AFA4700CFFCCF /* 1-Introduction to Swift */,
 				6696F94C2B1AFA5D00CFFCCF /* 2-Starting Swift UI */,
 				669AB05A2B5490CD0087ECCD /* 3-Expanding Your Skills */,
+				662189CC2B6FDAB400BA69ED /* 4-Consolidation */,
+				662189CD2B6FDAE500BA69ED /* 5-Scaling to Bigger Apps */,
 				6696F9102B1A4CB800CFFCCF /* Assets.xcassets */,
 				6696F9122B1A4CB800CFFCCF /* Preview Content */,
 			);
@@ -484,7 +533,6 @@
 				66C40E922B60AE34006C04B3 /* Day32 */,
 				66C40E932B60AE3A006C04B3 /* Day33 */,
 				66C40E942B60AE3F006C04B3 /* Day34 */,
-				662189C52B6DF48900BA69ED /* Day35 */,
 			);
 			path = "3-Expanding Your Skills";
 			sourceTree = "<group>";
@@ -736,6 +784,7 @@
 			files = (
 				661E29A92B3D5795000CFAA0 /* Day23_24_CustomCompositionView.swift in Sources */,
 				663C91F62B4FA4830050C08B /* Day23_24_SomeViewTypeView.swift in Sources */,
+				662189CF2B6FDB1B00BA69ED /* Day36View.swift in Sources */,
 				669AB0662B549BDB0087ECCD /* Day26_DateTimeFormattersView.swift in Sources */,
 				6696F94A2B1AEF4400CFFCCF /* Day6View.swift in Sources */,
 				6696F9522B1B77F100CFFCCF /* Day16View.swift in Sources */,
@@ -746,6 +795,7 @@
 				667023F52B1CE4C1003328D5 /* Dimension+Extensions.swift in Sources */,
 				6696F9622B1B83B800CFFCCF /* Day17_18_FormattingTextView.swift in Sources */,
 				66C40EA02B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift in Sources */,
+				662189DA2B706EAF00BA69ED /* Day36_DeletingItemsFromListView.swift in Sources */,
 				66A304052B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift in Sources */,
 				661E299D2B3D55D1000CFAA0 /* Day23_24_SwiftUIView.swift in Sources */,
 				662189C92B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift in Sources */,
@@ -791,6 +841,8 @@
 				66F047592B5F685300E9C3C3 /* Day31_WordsScrambleCompleteGameView.swift in Sources */,
 				6696F93A2B1A4FAE00CFFCCF /* SelectionView.swift in Sources */,
 				6696F9482B1AEE2300CFFCCF /* OutputView.swift in Sources */,
+				662189DC2B70712E00BA69ED /* Day36_AppStorageView.swift in Sources */,
+				662189D22B7065B600BA69ED /* Day36_@StateWithClassesView.swift in Sources */,
 				6696F93C2B1A53E800CFFCCF /* Day1View.swift in Sources */,
 				66CD27652B5B803F007F5DF1 /* Day27_BasicLayoutView.swift in Sources */,
 				6696F9502B1B76F000CFFCCF /* Day16_FormView.swift in Sources */,
@@ -807,11 +859,14 @@
 				66CD27692B5B8498007F5DF1 /* SleepCalculator.mlmodel in Sources */,
 				6696F9712B1B99E100CFFCCF /* Day19_VolumeConversionView.swift in Sources */,
 				66C40E9E2B60B05A006C04B3 /* Day32_CustomizingAnimationsView.swift in Sources */,
+				662189D62B706D2A00BA69ED /* Day36_PresentingSheetView.swift in Sources */,
 				66C40E982B60AE78006C04B3 /* Day33View.swift in Sources */,
 				669AB0642B5496790087ECCD /* Day26_DatePickerView.swift in Sources */,
 				6696F9592B1B7AEA00CFFCCF /* Day16_BindingStateView.swift in Sources */,
 				66C40E962B60AE6F006C04B3 /* Day32View.swift in Sources */,
+				662189E02B7072B200BA69ED /* Day36_DecodingCodableView.swift in Sources */,
 				66CD27672B5B819C007F5DF1 /* Day27_ConnectCoreMLView.swift in Sources */,
+				662189D42B70680000BA69ED /* Day36_@ObservableClassesView.swift in Sources */,
 				661E299F2B3D55F7000CFAA0 /* Day23_24_ModifierOrderView.swift in Sources */,
 				6696F9552B1B799F00CFFCCF /* Day16_NavigationBarView.swift in Sources */,
 				662189CB2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift in Sources */,
@@ -824,6 +879,7 @@
 				6696F9692B1B946F00CFFCCF /* Day19View.swift in Sources */,
 				6696F9462B1AE98D00CFFCCF /* Day3View.swift in Sources */,
 				662189C42B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift in Sources */,
+				662189DE2B70720900BA69ED /* Day36_EncodingCodableView.swift in Sources */,
 				6659AE902B5E041B006A26D1 /* Day29_StaticAndDynamicContentListView.swift in Sources */,
 				6659AE942B5E0666006A26D1 /* Day29_LoadingBundleFileView.swift in Sources */,
 				66C40EA22B60B724006C04B3 /* Day32_ExplicitAnimationsView.swift in Sources */,
