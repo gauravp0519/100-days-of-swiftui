@@ -47,8 +47,8 @@ struct Day19_TemperatureConversionView: View {
                 Text(String(format: "%g %@", output, selectedOutputUnit.symbol))
             }
         }
-        .onChange(of: inputValue) {
-            if $0?.isNaN ?? false {
+        .onChange(of: inputValue) { _, newValue in
+            if newValue?.isNaN ?? false {
                 inputValue = nil
             }
         }

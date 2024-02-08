@@ -47,8 +47,8 @@ struct Day19_VolumeConversionView: View {
                 Text(String(format: "%g %@", output, selectedOutputUnit.nameMedium))
             }
         }
-        .onChange(of: inputValue) {
-            if $0?.isNaN ?? false {
+        .onChange(of: inputValue) { _, newValue in
+            if newValue?.isNaN ?? false {
                 inputValue = nil
             }
         }

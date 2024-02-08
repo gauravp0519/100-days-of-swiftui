@@ -121,32 +121,16 @@ struct Day34_GuessTheFlagGameView: View {
     private func didTapIndex(_ index: Int) {
         questionCount += 1
         if index == correctAnswerIndex {
-            if #available(iOS 17.0, *) {
-                withAnimation {
-                    correctAnswerAnimationAmount = 360
-                    wrongAnswerOpacityAnimationAmount = 0.25
-                    wrongAnswerScaleAnimationAmount = 0.5
-                } completion: {
-                    correctAnswerAnimationAmount = 0
-                    wrongAnswerOpacityAnimationAmount = 1.0
-                    wrongAnswerScaleAnimationAmount = 1.0
-                    score += 1
-                    validateGame()
-                }
-            } else {
-                withAnimation {
-                    correctAnswerAnimationAmount = 360
-                    wrongAnswerOpacityAnimationAmount = 0.25
-                    wrongAnswerScaleAnimationAmount = 0.5
-                }
-
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                    correctAnswerAnimationAmount = 0
-                    wrongAnswerOpacityAnimationAmount = 1.0
-                    wrongAnswerScaleAnimationAmount = 1.0
-                    score += 1
-                    validateGame()
-                }
+            withAnimation {
+                correctAnswerAnimationAmount = 360
+                wrongAnswerOpacityAnimationAmount = 0.25
+                wrongAnswerScaleAnimationAmount = 0.5
+            } completion: {
+                correctAnswerAnimationAmount = 0
+                wrongAnswerOpacityAnimationAmount = 1.0
+                wrongAnswerScaleAnimationAmount = 1.0
+                score += 1
+                validateGame()
             }
         } else {
             score -= 1

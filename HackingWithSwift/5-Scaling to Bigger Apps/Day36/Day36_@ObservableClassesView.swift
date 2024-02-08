@@ -7,31 +7,13 @@
 
 import SwiftUI
 
-fileprivate protocol UserType {
-    var firstName: String { get set }
-    var lastName: String { get set }
-}
-
-fileprivate class UserV1: ObservableObject, UserType {
-    var firstName: String = "Taylor"
-    var lastName: String = "Swift"
-}
-
-@available(iOS 17.0, *)
-@Observable
-fileprivate class UserV2: UserType {
+fileprivate class User {
     var firstName: String = "Taylor"
     var lastName: String = "Swift"
 }
 
 struct Day36_ObservableClassesView: View {
-    @State private var user: UserType = {
-        if #available(iOS 17.0, *) {
-            return UserV2()
-        } else {
-            return UserV1()
-        }
-    }()
+    @State private var user = User()
 
     var body: some View {
         VStack {
