@@ -1,5 +1,5 @@
 //
-//  Day36_ObservableClassesView.swift
+//  Day36_@ObservableClassesView.swift
 //  HackingWithSwift
 //
 //  Created by Gaurav Pahwa on 2024-02-04.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-fileprivate class User {
+private class User {
     var firstName: String = "Taylor"
     var lastName: String = "Swift"
 }

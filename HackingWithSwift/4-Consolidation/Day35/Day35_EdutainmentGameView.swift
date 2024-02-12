@@ -18,7 +18,7 @@ struct Day35_EdutainmentGameView: View {
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Select Multiplication Number")
                         .font(.headline)
-                    Stepper("Table of \(tableNumber)", value: $tableNumber, in: 2...12)
+                    Stepper("Table of \(tableNumber)", value: $tableNumber, in: 2 ... 12)
                 }
                 VStack(alignment: .leading, spacing: 0) {
                     Text("Select Question Count")

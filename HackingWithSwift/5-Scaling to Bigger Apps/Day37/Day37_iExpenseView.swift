@@ -39,7 +39,7 @@ struct Day37_iExpenseView: View {
         NavigationStack {
             List {
                 ForEach(expenses.items) { item in
-                    HStack() {
+                    HStack {
                         VStack(alignment: .leading) {
                             Text(item.name)
                                 .font(.headline)

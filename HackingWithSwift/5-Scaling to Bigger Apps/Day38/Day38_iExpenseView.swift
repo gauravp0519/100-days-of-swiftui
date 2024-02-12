@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-fileprivate struct CurrencyText: ViewModifier {
+private struct CurrencyText: ViewModifier {
     let amount: Double
 
     func body(content: Content) -> some View {
@@ -21,7 +21,7 @@ fileprivate struct CurrencyText: ViewModifier {
     }
 }
 
-fileprivate extension Text {
+private extension Text {
     func currencyStyle(amount: Double) -> some View {
         modifier(CurrencyText(amount: amount))
     }
@@ -35,7 +35,7 @@ struct Day38_iExpenseView: View {
         NavigationStack {
             List {
                 ForEach(expenses.items) { item in
-                    HStack() {
+                    HStack {
                         VStack(alignment: .leading) {
                             Text(item.name)
                                 .font(.headline)

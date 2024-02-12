@@ -19,9 +19,9 @@ struct CustomButtonStyle: ButtonStyle {
     }
 }
 
-fileprivate extension UInt {
+private extension UInt {
     static var randomMultiplicationNumber: UInt {
-        UInt.random(in: 1...12)
+        UInt.random(in: 1 ... 12)
     }
 }
 
@@ -39,10 +39,11 @@ struct Day35_EdutainmentGameStartView: View {
     private var isPrevButtonDisabled: Bool {
         currentQuestionCount == 1
     }
+
     private var isLastQuestion: Bool {
         currentQuestionCount == questionCount
     }
-    
+
     @State private var answeredNumber: UInt?
     @State private var isShowingAlert = false
     @State private var alertTitle: String = ""
@@ -54,55 +55,55 @@ struct Day35_EdutainmentGameStartView: View {
     }
 
     var body: some View {
-            NavigationStack {
-                if currentQuestionCount >= 1 {
-                    VStack {
-                        Spacer()
-                        HStack {
-                            Text("\(tableNumber) X \(multiplicationNumbers[Int(currentQuestionCount) - 1]) = ")
-                                .font(.largeTitle)
+        NavigationStack {
+            if currentQuestionCount >= 1 {
+                VStack {
+                    Spacer()
+                    HStack {
+                        Text("\(tableNumber) X \(multiplicationNumbers[Int(currentQuestionCount) - 1]) = ")
+                            .font(.largeTitle)
 
-                            TextField("?", value: $answeredNumber, format: .number)
-                                .multilineTextAlignment(.center)
-                                .frame(width: 80)
-                                .border(.black, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
-                                .font(.largeTitle)
-                                .cornerRadius(4)
-                                .keyboardType(.numberPad)
+                        TextField("?", value: $answeredNumber, format: .number)
+                            .multilineTextAlignment(.center)
+                            .frame(width: 80)
+                            .border(.black, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                            .font(.largeTitle)
+                            .cornerRadius(4)
+                            .keyboardType(.numberPad)
+                    }
+                    HStack {
+                        Button("Previous") {
+                            previousTapped()
                         }
-                        HStack {
-                            Button("Previous") {
-                                previousTapped()
-                            }
-                            .buttonStyle(CustomButtonStyle(isDisabled: isPrevButtonDisabled))
-                            .disabled(isPrevButtonDisabled)
+                        .buttonStyle(CustomButtonStyle(isDisabled: isPrevButtonDisabled))
+                        .disabled(isPrevButtonDisabled)
 
-                            Button(isLastQuestion ? "Submit" : "Next") {
-                                validateAnswer()
-                                if isLastQuestion {
-                                    submitTapped()
-                                } else {
-                                    nextTapped()
-                                }
+                        Button(isLastQuestion ? "Submit" : "Next") {
+                            validateAnswer()
+                            if isLastQuestion {
+                                submitTapped()
+                            } else {
+                                nextTapped()
                             }
-                            .buttonStyle(CustomButtonStyle(isDisabled: answeredNumber == nil))
-                            .disabled(answeredNumber == nil)
                         }
-                        Spacer()
-                        Text("Question \(currentQuestionCount)/\(questionCount)")
+                        .buttonStyle(CustomButtonStyle(isDisabled: answeredNumber == nil))
+                        .disabled(answeredNumber == nil)
                     }
-                    .alert(alertTitle, isPresented: $isShowingAlert) {
-                        Button("Restart", role: .cancel) {
-                            restartGame()
-                        }
-                    } message: {
-                        Text(alertMessage)
+                    Spacer()
+                    Text("Question \(currentQuestionCount)/\(questionCount)")
+                }
+                .alert(alertTitle, isPresented: $isShowingAlert) {
+                    Button("Restart", role: .cancel) {
+                        restartGame()
                     }
+                } message: {
+                    Text(alertMessage)
                 }
             }
-            .onAppear(perform: {
-                restartGame()
-            })
+        }
+        .onAppear(perform: {
+            restartGame()
+        })
     }
 
     private func previousTapped() {

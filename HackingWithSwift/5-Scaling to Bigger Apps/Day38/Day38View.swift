@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Day38View: View {
     private let items: [ItemModel] = [
-        .init(title: "iExpense", description: "", view: AnyView(Day38_iExpenseView()))
+        .init(title: "iExpense", description: "", view: AnyView(Day38_iExpenseView())),
     ]
 
     var body: some View {

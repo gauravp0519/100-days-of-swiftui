@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-fileprivate struct User: Codable {
+private struct User: Codable {
     var firstName: String
     var lastName: String
 }
