@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6611BA762B84013400492A4A /* Day40_41View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA752B84013400492A4A /* Day40_41View.swift */; };
+		6611BA7A2B84027400492A4A /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6611BA782B84027400492A4A /* astronauts.json */; };
+		6611BA7B2B84027400492A4A /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6611BA792B84027400492A4A /* missions.json */; };
+		6611BA7D2B84029B00492A4A /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA7C2B84029B00492A4A /* Bundle+Extensions.swift */; };
+		6611BA7F2B840E8600492A4A /* Day40_41_MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA7E2B840E8600492A4A /* Day40_41_MissionsView.swift */; };
+		6611BA812B8411DA00492A4A /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA802B8411DA00492A4A /* Mission.swift */; };
+		6611BA842B84260900492A4A /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA832B84260900492A4A /* ShapeStyle+Extensions.swift */; };
+		6611BA862B84294E00492A4A /* MissionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA852B84294E00492A4A /* MissionDetailsView.swift */; };
+		6611BA882B842D6A00492A4A /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA872B842D6A00492A4A /* Astronaut.swift */; };
+		6611BA8D2B86DF4600492A4A /* AstronautDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA8C2B86DF4600492A4A /* AstronautDetailsView.swift */; };
+		6611BA902B86E2AC00492A4A /* Day42View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA8F2B86E2AC00492A4A /* Day42View.swift */; };
+		6611BA922B86E2FC00492A4A /* Day42_MissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA912B86E2FC00492A4A /* Day42_MissionsView.swift */; };
+		6611BA942B86E3BD00492A4A /* CrewMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA932B86E3BD00492A4A /* CrewMembersView.swift */; };
+		6611BA962B86E40400492A4A /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA952B86E40400492A4A /* CrewMember.swift */; };
+		6611BA982B86E55E00492A4A /* LightBackgroundDividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA972B86E55E00492A4A /* LightBackgroundDividerView.swift */; };
+		6611BA9A2B86E7D400492A4A /* MissionsGridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA992B86E7D400492A4A /* MissionsGridLayoutView.swift */; };
+		6611BA9C2B86EC2800492A4A /* MissionsListLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA9B2B86EC2700492A4A /* MissionsListLayoutView.swift */; };
 		661E29992B3D530E000CFAA0 /* Day23_24View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E29982B3D530E000CFAA0 /* Day23_24View.swift */; };
 		661E299B2B3D5591000CFAA0 /* Day23_24_WhyStructsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E299A2B3D5591000CFAA0 /* Day23_24_WhyStructsView.swift */; };
 		661E299D2B3D55D1000CFAA0 /* Day23_24_SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661E299C2B3D55D1000CFAA0 /* Day23_24_SwiftUIView.swift */; };
@@ -155,6 +172,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6611BA752B84013400492A4A /* Day40_41View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day40_41View.swift; sourceTree = "<group>"; };
+		6611BA782B84027400492A4A /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		6611BA792B84027400492A4A /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		6611BA7C2B84029B00492A4A /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		6611BA7E2B840E8600492A4A /* Day40_41_MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day40_41_MissionsView.swift; sourceTree = "<group>"; };
+		6611BA802B8411DA00492A4A /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		6611BA832B84260900492A4A /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		6611BA852B84294E00492A4A /* MissionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailsView.swift; sourceTree = "<group>"; };
+		6611BA872B842D6A00492A4A /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		6611BA8C2B86DF4600492A4A /* AstronautDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailsView.swift; sourceTree = "<group>"; };
+		6611BA8F2B86E2AC00492A4A /* Day42View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day42View.swift; sourceTree = "<group>"; };
+		6611BA912B86E2FC00492A4A /* Day42_MissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day42_MissionsView.swift; sourceTree = "<group>"; };
+		6611BA932B86E3BD00492A4A /* CrewMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMembersView.swift; sourceTree = "<group>"; };
+		6611BA952B86E40400492A4A /* CrewMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
+		6611BA972B86E55E00492A4A /* LightBackgroundDividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightBackgroundDividerView.swift; sourceTree = "<group>"; };
+		6611BA992B86E7D400492A4A /* MissionsGridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsGridLayoutView.swift; sourceTree = "<group>"; };
+		6611BA9B2B86EC2700492A4A /* MissionsListLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsListLayoutView.swift; sourceTree = "<group>"; };
 		661E29982B3D530E000CFAA0 /* Day23_24View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24View.swift; sourceTree = "<group>"; };
 		661E299A2B3D5591000CFAA0 /* Day23_24_WhyStructsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_WhyStructsView.swift; sourceTree = "<group>"; };
 		661E299C2B3D55D1000CFAA0 /* Day23_24_SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23_24_SwiftUIView.swift; sourceTree = "<group>"; };
@@ -314,6 +348,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6611BA742B84012100492A4A /* Day40-41 */ = {
+			isa = PBXGroup;
+			children = (
+				6611BA822B8411FD00492A4A /* models */,
+				6611BA772B84024C00492A4A /* resources */,
+				6611BA752B84013400492A4A /* Day40_41View.swift */,
+				6611BA7E2B840E8600492A4A /* Day40_41_MissionsView.swift */,
+				6611BA852B84294E00492A4A /* MissionDetailsView.swift */,
+				6611BA8C2B86DF4600492A4A /* AstronautDetailsView.swift */,
+				6611BA932B86E3BD00492A4A /* CrewMembersView.swift */,
+				6611BA972B86E55E00492A4A /* LightBackgroundDividerView.swift */,
+			);
+			path = "Day40-41";
+			sourceTree = "<group>";
+		};
+		6611BA772B84024C00492A4A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6611BA782B84027400492A4A /* astronauts.json */,
+				6611BA792B84027400492A4A /* missions.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6611BA822B8411FD00492A4A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6611BA802B8411DA00492A4A /* Mission.swift */,
+				6611BA872B842D6A00492A4A /* Astronaut.swift */,
+				6611BA952B86E40400492A4A /* CrewMember.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6611BA8E2B86E29900492A4A /* Day42 */ = {
+			isa = PBXGroup;
+			children = (
+				6611BA8F2B86E2AC00492A4A /* Day42View.swift */,
+				6611BA912B86E2FC00492A4A /* Day42_MissionsView.swift */,
+				6611BA992B86E7D400492A4A /* MissionsGridLayoutView.swift */,
+				6611BA9B2B86EC2700492A4A /* MissionsListLayoutView.swift */,
+			);
+			path = Day42;
+			sourceTree = "<group>";
+		};
 		661E29972B3D52DA000CFAA0 /* Day23 */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +437,8 @@
 				662189E12B709DF900BA69ED /* Day37 */,
 				667F376E2B74A087008F6B74 /* Day38 */,
 				66D62CD02B77901C00AFA29E /* Day39 */,
+				6611BA742B84012100492A4A /* Day40-41 */,
+				6611BA8E2B86E29900492A4A /* Day42 */,
 			);
 			path = "5-Scaling to Bigger Apps";
 			sourceTree = "<group>";
@@ -415,6 +496,8 @@
 				667023F02B1C5743003328D5 /* UnitLength+Extensions.swift */,
 				667023F42B1CE4C1003328D5 /* Dimension+Extensions.swift */,
 				663C91F32B4F99620050C08B /* Text+Extensions.swift */,
+				6611BA7C2B84029B00492A4A /* Bundle+Extensions.swift */,
+				6611BA832B84260900492A4A /* ShapeStyle+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -822,8 +905,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6696F9142B1A4CB800CFFCCF /* Preview Assets.xcassets in Resources */,
+				6611BA7B2B84027400492A4A /* missions.json in Resources */,
 				6659AE922B5E064C006A26D1 /* start.txt in Resources */,
 				6696F9112B1A4CB800CFFCCF /* Assets.xcassets in Resources */,
+				6611BA7A2B84027400492A4A /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,7 +931,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		663C91F22B4F977F0050C08B /* Run SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -858,7 +943,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n  swiftformat . --cache ignore\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
 		};
@@ -883,6 +968,7 @@
 				6670240A2B1DA63D003328D5 /* Day20_AlertView.swift in Sources */,
 				6696F95B2B1B7BB200CFFCCF /* Day16_LoopView.swift in Sources */,
 				667023F52B1CE4C1003328D5 /* Dimension+Extensions.swift in Sources */,
+				6611BA962B86E40400492A4A /* CrewMember.swift in Sources */,
 				6696F9622B1B83B800CFFCCF /* Day17_18_FormattingTextView.swift in Sources */,
 				66C40EA02B60B4B5006C04B3 /* Day32_AnimatingBindingsView.swift in Sources */,
 				662189DA2B706EAF00BA69ED /* Day36_DeletingItemsFromListView.swift in Sources */,
@@ -895,7 +981,9 @@
 				669AB0602B5494930087ECCD /* Day27View.swift in Sources */,
 				663C91F42B4F99620050C08B /* Text+Extensions.swift in Sources */,
 				6659AE892B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift in Sources */,
+				6611BA922B86E2FC00492A4A /* Day42_MissionsView.swift in Sources */,
 				661E29A12B3D568A000CFAA0 /* Day23_24_ConditionalModifiersView.swift in Sources */,
+				6611BA8D2B86DF4600492A4A /* AstronautDetailsView.swift in Sources */,
 				661E29A32B3D56C9000CFAA0 /* Day23_24_EnvModifiersView.swift in Sources */,
 				664354682B218C950016FE5A /* Day21_22_StackingFlagButtonsView.swift in Sources */,
 				6696F9602B1B7CEF00CFFCCF /* Day17_18View.swift in Sources */,
@@ -908,6 +996,7 @@
 				669AB0592B5391E10087ECCD /* Dat23_24_CustomContainersView.swift in Sources */,
 				66CD276D2B5B8969007F5DF1 /* Day27_BetterRestFormView.swift in Sources */,
 				66D62CDE2B7796C900AFA29E /* Day39_ScrollViewWithDataView.swift in Sources */,
+				6611BA7F2B840E8600492A4A /* Day40_41_MissionsView.swift in Sources */,
 				662189C22B6C80C100BA69ED /* Day33_CustomTransitionsView.swift in Sources */,
 				6696F9572B1B7A1400CFFCCF /* Day16_StateView.swift in Sources */,
 				66D62CEC2B79EFE200AFA29E /* Day39_FixedItemVGridView.swift in Sources */,
@@ -916,11 +1005,14 @@
 				669AB05E2B5494890087ECCD /* Day26View.swift in Sources */,
 				6696F90D2B1A4CB700CFFCCF /* HackingWithSwiftApp.swift in Sources */,
 				667F37722B74A6F1008F6B74 /* Day38View.swift in Sources */,
+				6611BA982B86E55E00492A4A /* LightBackgroundDividerView.swift in Sources */,
+				6611BA7D2B84029B00492A4A /* Bundle+Extensions.swift in Sources */,
 				669AB0572B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift in Sources */,
 				6696F9642B1B8D7200CFFCCF /* Day17_18_CheckSplittingView.swift in Sources */,
 				66D62CDA2B77946300AFA29E /* Day39_ScaledToFitImageView.swift in Sources */,
 				669AB0622B5494C30087ECCD /* Day26_StepperView.swift in Sources */,
 				66D62CD62B77937800AFA29E /* Day39_ImageClippedView.swift in Sources */,
+				6611BA862B84294E00492A4A /* MissionDetailsView.swift in Sources */,
 				667024022B1D9A06003328D5 /* Day20_RadialGradientView.swift in Sources */,
 				66F047572B5F67D700E9C3C3 /* Day31View.swift in Sources */,
 				6696F96B2B1B99B300CFFCCF /* Day19_TemperatureConversionView.swift in Sources */,
@@ -930,6 +1022,7 @@
 				667023F82B1D792C003328D5 /* Day20View.swift in Sources */,
 				6670240D2B1DA82C003328D5 /* Day21_22View.swift in Sources */,
 				6659AE962B5E0B69006A26D1 /* Day29_MisspelledWordView.swift in Sources */,
+				6611BA842B84260900492A4A /* ShapeStyle+Extensions.swift in Sources */,
 				66C40E9A2B60AE80006C04B3 /* Day34View.swift in Sources */,
 				667023FE2B1D979A003328D5 /* Day20_BackgroundMaterialView.swift in Sources */,
 				667024062B1D9CFD003328D5 /* Day20_ButtonsView.swift in Sources */,
@@ -945,10 +1038,12 @@
 				66D62CD22B77902D00AFA29E /* Day39View.swift in Sources */,
 				66CD27652B5B803F007F5DF1 /* Day27_BasicLayoutView.swift in Sources */,
 				6696F9502B1B76F000CFFCCF /* Day16_FormView.swift in Sources */,
+				6611BA942B86E3BD00492A4A /* CrewMembersView.swift in Sources */,
 				661E299B2B3D5591000CFAA0 /* Day23_24_WhyStructsView.swift in Sources */,
 				6696F96F2B1B99D300CFFCCF /* Day19_TimeConversionView.swift in Sources */,
 				661E29A52B3D5765000CFAA0 /* Day23_24_ViewsAsPropertiesView.swift in Sources */,
 				667024082B1DA0C7003328D5 /* Day20_CustomButtonsView.swift in Sources */,
+				6611BA882B842D6A00492A4A /* Astronaut.swift in Sources */,
 				664354702B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift in Sources */,
 				66A304072B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift in Sources */,
 				6659AE8C2B5E0305006A26D1 /* Day29View.swift in Sources */,
@@ -957,14 +1052,18 @@
 				66C40EA42B60BBFC006C04B3 /* Day33_AnimationStackView.swift in Sources */,
 				66D62CD42B7790B100AFA29E /* Day39_ImageView.swift in Sources */,
 				66D62CF02B79F21C00AFA29E /* Day39_AdaptiveItemVGridView.swift in Sources */,
+				6611BA9C2B86EC2800492A4A /* MissionsListLayoutView.swift in Sources */,
 				667023FA2B1D798A003328D5 /* Day20_ZStackView.swift in Sources */,
+				6611BA9A2B86E7D400492A4A /* MissionsGridLayoutView.swift in Sources */,
 				66CD27692B5B8498007F5DF1 /* SleepCalculator.mlmodel in Sources */,
 				6696F9712B1B99E100CFFCCF /* Day19_VolumeConversionView.swift in Sources */,
 				66C40E9E2B60B05A006C04B3 /* Day32_CustomizingAnimationsView.swift in Sources */,
 				662189D62B706D2A00BA69ED /* Day36_PresentingSheetView.swift in Sources */,
 				66989ADD2B748057008E0B48 /* Day37_iExpenseView.swift in Sources */,
+				6611BA812B8411DA00492A4A /* Mission.swift in Sources */,
 				66C40E982B60AE78006C04B3 /* Day33View.swift in Sources */,
 				66989ADF2B74883E008E0B48 /* Day37_AddExpenseView.swift in Sources */,
+				6611BA902B86E2AC00492A4A /* Day42View.swift in Sources */,
 				667F37702B74A0DD008F6B74 /* Day38_iExpenseView.swift in Sources */,
 				669AB0642B5496790087ECCD /* Day26_DatePickerView.swift in Sources */,
 				6696F9592B1B7AEA00CFFCCF /* Day16_BindingStateView.swift in Sources */,
@@ -987,6 +1086,7 @@
 				6696F9462B1AE98D00CFFCCF /* Day3View.swift in Sources */,
 				662189C42B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift in Sources */,
 				662189DE2B70720900BA69ED /* Day36_EncodingCodableView.swift in Sources */,
+				6611BA762B84013400492A4A /* Day40_41View.swift in Sources */,
 				6659AE902B5E041B006A26D1 /* Day29_StaticAndDynamicContentListView.swift in Sources */,
 				66D62CEE2B79F18300AFA29E /* Day39_FlexibleItemVGridView.swift in Sources */,
 				6659AE942B5E0666006A26D1 /* Day29_LoadingBundleFileView.swift in Sources */,
