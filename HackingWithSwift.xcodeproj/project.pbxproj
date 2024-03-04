@@ -119,6 +119,18 @@
 		66A304052B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A304042B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift */; };
 		66A304072B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A304062B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift */; };
 		66A304092B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A304082B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift */; };
+		66A8AA242B952738000A6527 /* Day43_NavigationDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA232B952738000A6527 /* Day43_NavigationDestinationView.swift */; };
+		66A8AA272B952AB0000A6527 /* Day44View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA262B952AB0000A6527 /* Day44View.swift */; };
+		66A8AA292B95488B000A6527 /* Day44_ProgrammaticNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA282B95488B000A6527 /* Day44_ProgrammaticNavigationView.swift */; };
+		66A8AA2B2B954AC2000A6527 /* Day44_NavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA2A2B954AC2000A6527 /* Day44_NavigationPathView.swift */; };
+		66A8AA2D2B954D27000A6527 /* Day44_NavigationPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA2C2B954D27000A6527 /* Day44_NavigationPopView.swift */; };
+		66A8AA2F2B954F47000A6527 /* Day44_PersistingNavigationPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA2E2B954F47000A6527 /* Day44_PersistingNavigationPathView.swift */; };
+		66A8AA322B955348000A6527 /* Day45View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA312B955348000A6527 /* Day45View.swift */; };
+		66A8AA342B955478000A6527 /* Day45_NavigationBarCustomAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA332B955478000A6527 /* Day45_NavigationBarCustomAppearanceView.swift */; };
+		66A8AA362B955537000A6527 /* Day45_ToolbarButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA352B955537000A6527 /* Day45_ToolbarButtonsView.swift */; };
+		66A8AA382B95568D000A6527 /* Day45_EditableNavigationTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A8AA372B95568D000A6527 /* Day45_EditableNavigationTitleView.swift */; };
+		66BA56FE2B95218C004DDEAC /* Day43View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA56FD2B95218C004DDEAC /* Day43View.swift */; };
+		66BA57002B952532004DDEAC /* Day43_SimpleNavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BA56FF2B952532004DDEAC /* Day43_SimpleNavigationLinkView.swift */; };
 		66C40E962B60AE6F006C04B3 /* Day32View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E952B60AE6F006C04B3 /* Day32View.swift */; };
 		66C40E982B60AE78006C04B3 /* Day33View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E972B60AE78006C04B3 /* Day33View.swift */; };
 		66C40E9A2B60AE80006C04B3 /* Day34View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C40E992B60AE80006C04B3 /* Day34View.swift */; };
@@ -288,6 +300,18 @@
 		66A304042B617EBD009E87F0 /* Day33_AnimatingGesturesRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_AnimatingGesturesRectView.swift; sourceTree = "<group>"; };
 		66A304062B61808B009E87F0 /* Day33_AnimatingGesturesLettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_AnimatingGesturesLettersView.swift; sourceTree = "<group>"; };
 		66A304082B61834C009E87F0 /* Day33_ViewVisibilityTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33_ViewVisibilityTransitionView.swift; sourceTree = "<group>"; };
+		66A8AA232B952738000A6527 /* Day43_NavigationDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day43_NavigationDestinationView.swift; sourceTree = "<group>"; };
+		66A8AA262B952AB0000A6527 /* Day44View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day44View.swift; sourceTree = "<group>"; };
+		66A8AA282B95488B000A6527 /* Day44_ProgrammaticNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day44_ProgrammaticNavigationView.swift; sourceTree = "<group>"; };
+		66A8AA2A2B954AC2000A6527 /* Day44_NavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day44_NavigationPathView.swift; sourceTree = "<group>"; };
+		66A8AA2C2B954D27000A6527 /* Day44_NavigationPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day44_NavigationPopView.swift; sourceTree = "<group>"; };
+		66A8AA2E2B954F47000A6527 /* Day44_PersistingNavigationPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day44_PersistingNavigationPathView.swift; sourceTree = "<group>"; };
+		66A8AA312B955348000A6527 /* Day45View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day45View.swift; sourceTree = "<group>"; };
+		66A8AA332B955478000A6527 /* Day45_NavigationBarCustomAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day45_NavigationBarCustomAppearanceView.swift; sourceTree = "<group>"; };
+		66A8AA352B955537000A6527 /* Day45_ToolbarButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day45_ToolbarButtonsView.swift; sourceTree = "<group>"; };
+		66A8AA372B95568D000A6527 /* Day45_EditableNavigationTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day45_EditableNavigationTitleView.swift; sourceTree = "<group>"; };
+		66BA56FD2B95218C004DDEAC /* Day43View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day43View.swift; sourceTree = "<group>"; };
+		66BA56FF2B952532004DDEAC /* Day43_SimpleNavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day43_SimpleNavigationLinkView.swift; sourceTree = "<group>"; };
 		66C40E952B60AE6F006C04B3 /* Day32View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day32View.swift; sourceTree = "<group>"; };
 		66C40E972B60AE78006C04B3 /* Day33View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day33View.swift; sourceTree = "<group>"; };
 		66C40E992B60AE80006C04B3 /* Day34View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day34View.swift; sourceTree = "<group>"; };
@@ -439,6 +463,9 @@
 				66D62CD02B77901C00AFA29E /* Day39 */,
 				6611BA742B84012100492A4A /* Day40-41 */,
 				6611BA8E2B86E29900492A4A /* Day42 */,
+				66BA56FC2B952122004DDEAC /* Day43 */,
+				66A8AA252B952A6F000A6527 /* Day44 */,
+				66A8AA302B955335000A6527 /* Day45 */,
 			);
 			path = "5-Scaling to Bigger Apps";
 			sourceTree = "<group>";
@@ -723,6 +750,39 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		66A8AA252B952A6F000A6527 /* Day44 */ = {
+			isa = PBXGroup;
+			children = (
+				66A8AA262B952AB0000A6527 /* Day44View.swift */,
+				66A8AA282B95488B000A6527 /* Day44_ProgrammaticNavigationView.swift */,
+				66A8AA2A2B954AC2000A6527 /* Day44_NavigationPathView.swift */,
+				66A8AA2C2B954D27000A6527 /* Day44_NavigationPopView.swift */,
+				66A8AA2E2B954F47000A6527 /* Day44_PersistingNavigationPathView.swift */,
+			);
+			path = Day44;
+			sourceTree = "<group>";
+		};
+		66A8AA302B955335000A6527 /* Day45 */ = {
+			isa = PBXGroup;
+			children = (
+				66A8AA312B955348000A6527 /* Day45View.swift */,
+				66A8AA332B955478000A6527 /* Day45_NavigationBarCustomAppearanceView.swift */,
+				66A8AA352B955537000A6527 /* Day45_ToolbarButtonsView.swift */,
+				66A8AA372B95568D000A6527 /* Day45_EditableNavigationTitleView.swift */,
+			);
+			path = Day45;
+			sourceTree = "<group>";
+		};
+		66BA56FC2B952122004DDEAC /* Day43 */ = {
+			isa = PBXGroup;
+			children = (
+				66BA56FD2B95218C004DDEAC /* Day43View.swift */,
+				66BA56FF2B952532004DDEAC /* Day43_SimpleNavigationLinkView.swift */,
+				66A8AA232B952738000A6527 /* Day43_NavigationDestinationView.swift */,
+			);
+			path = Day43;
+			sourceTree = "<group>";
+		};
 		66C40E922B60AE34006C04B3 /* Day32 */ = {
 			isa = PBXGroup;
 			children = (
@@ -931,7 +991,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		663C91F22B4F977F0050C08B /* Run SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -943,7 +1003,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n  swiftformat . --cache ignore\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
 		};
@@ -978,6 +1038,7 @@
 				662189C92B6DF4BA00BA69ED /* Day35_EdutainmentGameView.swift in Sources */,
 				667024042B1D9B3D003328D5 /* Day20_AngularGradientView.swift in Sources */,
 				6696F96D2B1B99C100CFFCCF /* Day19_LengthConversionView.swift in Sources */,
+				66A8AA322B955348000A6527 /* Day45View.swift in Sources */,
 				669AB0602B5494930087ECCD /* Day27View.swift in Sources */,
 				663C91F42B4F99620050C08B /* Text+Extensions.swift in Sources */,
 				6659AE892B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift in Sources */,
@@ -1009,6 +1070,8 @@
 				6611BA7D2B84029B00492A4A /* Bundle+Extensions.swift in Sources */,
 				669AB0572B538F0E0087ECCD /* Day_23_24_ViewGroupsView.swift in Sources */,
 				6696F9642B1B8D7200CFFCCF /* Day17_18_CheckSplittingView.swift in Sources */,
+				66A8AA2D2B954D27000A6527 /* Day44_NavigationPopView.swift in Sources */,
+				66A8AA272B952AB0000A6527 /* Day44View.swift in Sources */,
 				66D62CDA2B77946300AFA29E /* Day39_ScaledToFitImageView.swift in Sources */,
 				669AB0622B5494C30087ECCD /* Day26_StepperView.swift in Sources */,
 				66D62CD62B77937800AFA29E /* Day39_ImageClippedView.swift in Sources */,
@@ -1018,6 +1081,7 @@
 				6696F96B2B1B99B300CFFCCF /* Day19_TemperatureConversionView.swift in Sources */,
 				667023FC2B1D9620003328D5 /* Day20_ColorsAndFramesViews.swift in Sources */,
 				6643546A2B2190860016FE5A /* Day21_22_ShowScoreWithAlertView.swift in Sources */,
+				66A8AA292B95488B000A6527 /* Day44_ProgrammaticNavigationView.swift in Sources */,
 				66D62CE42B79C7A900AFA29E /* Day39_NavigationLinkView.swift in Sources */,
 				667023F82B1D792C003328D5 /* Day20View.swift in Sources */,
 				6670240D2B1DA82C003328D5 /* Day21_22View.swift in Sources */,
@@ -1039,8 +1103,10 @@
 				66CD27652B5B803F007F5DF1 /* Day27_BasicLayoutView.swift in Sources */,
 				6696F9502B1B76F000CFFCCF /* Day16_FormView.swift in Sources */,
 				6611BA942B86E3BD00492A4A /* CrewMembersView.swift in Sources */,
+				66BA56FE2B95218C004DDEAC /* Day43View.swift in Sources */,
 				661E299B2B3D5591000CFAA0 /* Day23_24_WhyStructsView.swift in Sources */,
 				6696F96F2B1B99D300CFFCCF /* Day19_TimeConversionView.swift in Sources */,
+				66A8AA362B955537000A6527 /* Day45_ToolbarButtonsView.swift in Sources */,
 				661E29A52B3D5765000CFAA0 /* Day23_24_ViewsAsPropertiesView.swift in Sources */,
 				667024082B1DA0C7003328D5 /* Day20_CustomButtonsView.swift in Sources */,
 				6611BA882B842D6A00492A4A /* Astronaut.swift in Sources */,
@@ -1050,7 +1116,10 @@
 				66D62CE82B79C85600AFA29E /* Day39_NavigationLinkWithListView.swift in Sources */,
 				6696F9442B1AE81F00CFFCCF /* CodeView.swift in Sources */,
 				66C40EA42B60BBFC006C04B3 /* Day33_AnimationStackView.swift in Sources */,
+				66A8AA242B952738000A6527 /* Day43_NavigationDestinationView.swift in Sources */,
 				66D62CD42B7790B100AFA29E /* Day39_ImageView.swift in Sources */,
+				66A8AA382B95568D000A6527 /* Day45_EditableNavigationTitleView.swift in Sources */,
+				66A8AA2B2B954AC2000A6527 /* Day44_NavigationPathView.swift in Sources */,
 				66D62CF02B79F21C00AFA29E /* Day39_AdaptiveItemVGridView.swift in Sources */,
 				6611BA9C2B86EC2800492A4A /* MissionsListLayoutView.swift in Sources */,
 				667023FA2B1D798A003328D5 /* Day20_ZStackView.swift in Sources */,
@@ -1077,14 +1146,17 @@
 				6696F9552B1B799F00CFFCCF /* Day16_NavigationBarView.swift in Sources */,
 				662189CB2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift in Sources */,
 				6696F9422B1AE0C500CFFCCF /* Constants.swift in Sources */,
+				66BA57002B952532004DDEAC /* Day43_SimpleNavigationLinkView.swift in Sources */,
 				6696F95D2B1B7C5700CFFCCF /* Day16_PickerView.swift in Sources */,
 				6643546C2B2195330016FE5A /* Day21_22_FlagStylingView.swift in Sources */,
 				6659AE872B5DF69E006A26D1 /* Day28View.swift in Sources */,
 				667024002B1D98B6003328D5 /* Day20_LinearGradientView.swift in Sources */,
 				667023F12B1C5743003328D5 /* UnitLength+Extensions.swift in Sources */,
+				66A8AA342B955478000A6527 /* Day45_NavigationBarCustomAppearanceView.swift in Sources */,
 				6696F9692B1B946F00CFFCCF /* Day19View.swift in Sources */,
 				6696F9462B1AE98D00CFFCCF /* Day3View.swift in Sources */,
 				662189C42B6D211C00BA69ED /* Day34_GuessTheFlagGameView.swift in Sources */,
+				66A8AA2F2B954F47000A6527 /* Day44_PersistingNavigationPathView.swift in Sources */,
 				662189DE2B70720900BA69ED /* Day36_EncodingCodableView.swift in Sources */,
 				6611BA762B84013400492A4A /* Day40_41View.swift in Sources */,
 				6659AE902B5E041B006A26D1 /* Day29_StaticAndDynamicContentListView.swift in Sources */,

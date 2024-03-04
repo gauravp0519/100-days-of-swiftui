@@ -92,6 +92,9 @@ struct SelectionView: View {
             .init(title: "Day 39", description: "#Moonshot, part 1", view: AnyView(Day39View())),
             .init(title: "Day 40-41", description: "#Moonshot, part 2-3", view: AnyView(Day40_41View())),
             .init(title: "Day 42", description: "#Moonshot, part 4", view: AnyView(Day42View())),
+            .init(title: "Day 43", description: "#Navigation, part 1", view: AnyView(Day43View())),
+            .init(title: "Day 44", description: "#Navigation, part 2", view: AnyView(Day44View())),
+            .init(title: "Day 45", description: "#Navigation, part 3", view: AnyView(Day45View())),
         ]),
     ]
 
