@@ -20,32 +20,30 @@ struct Day28_BetterRestSectionView: View {
     @State private var coffeeAmount = 1
 
     var body: some View {
-        NavigationStack {
-            Form {
-                Section("When do you want to wake up?") {
-                    DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
-                }
-                Section("Desired amount of sleep") {
-                    Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4 ... 12, step: 0.25)
-                }
-                Section("Daily coffee intake") {
-                    Picker("^[\(coffeeAmount) cup](inflect: true)", selection: $coffeeAmount) {
-                        ForEach(1 ... 20, id: \.self) {
-                            Text("\($0)")
-                        }
+        Form {
+            Section("When do you want to wake up?") {
+                DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
+            }
+            Section("Desired amount of sleep") {
+                Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4 ... 12, step: 0.25)
+            }
+            Section("Daily coffee intake") {
+                Picker("^[\(coffeeAmount) cup](inflect: true)", selection: $coffeeAmount) {
+                    ForEach(1 ... 20, id: \.self) {
+                        Text("\($0)")
                     }
-                    .pickerStyle(.navigationLink)
                 }
-                Section("Output") {
-                    if let bedTime = idealBedtime() {
-                        Text("Your ideal bedtime is \(bedTime.formatted(date: .omitted, time: .shortened))")
-                    } else {
-                        Text("Error calculating ideal bedtime!!")
-                    }
+                .pickerStyle(.navigationLink)
+            }
+            Section("Output") {
+                if let bedTime = idealBedtime() {
+                    Text("Your ideal bedtime is \(bedTime.formatted(date: .omitted, time: .shortened))")
+                } else {
+                    Text("Error calculating ideal bedtime!!")
                 }
             }
-            .navigationTitle("BetterRest")
         }
+        .navigationTitle("BetterRest")
     }
 
     func idealBedtime() -> Date? {

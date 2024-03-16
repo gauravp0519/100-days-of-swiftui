@@ -12,17 +12,15 @@ struct Day36_DeletingItemsFromListView: View {
     @State private var currentNumber: Int = 1
 
     var body: some View {
-        NavigationStack {
-            List {
-                ForEach(numbers, id: \.self) {
-                    Text("Row \($0)")
-                }
-                .onDelete(perform: deleteItems)
+        List {
+            ForEach(numbers, id: \.self) {
+                Text("Row \($0)")
             }
-            Button("Add item") {
-                numbers.append(currentNumber)
-                currentNumber += 1
-            }
+            .onDelete(perform: deleteItems)
+        }
+        Button("Add item") {
+            numbers.append(currentNumber)
+            currentNumber += 1
         }
         .toolbar(content: {
             EditButton()
@@ -35,5 +33,7 @@ struct Day36_DeletingItemsFromListView: View {
 }
 
 #Preview {
-    Day36_DeletingItemsFromListView()
+    NavigationStack {
+        Day36_DeletingItemsFromListView()
+    }
 }

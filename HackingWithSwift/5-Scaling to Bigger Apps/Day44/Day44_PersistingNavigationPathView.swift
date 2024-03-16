@@ -8,7 +8,7 @@
 import SwiftUI
 
 @Observable
-fileprivate class PathStore {
+private class PathStore {
     var path: NavigationPath {
         didSet {
             save()
@@ -38,11 +38,11 @@ fileprivate class PathStore {
     }
 }
 
-fileprivate struct DetailView: View {
+private struct DetailView: View {
     let number: Int
 
     var body: some View {
-        NavigationLink("Go to random number", value: Int.random(in: 1...10))
+        NavigationLink("Go to random number", value: Int.random(in: 1 ... 10))
             .navigationTitle("Number: \(number)")
     }
 }

@@ -32,33 +32,31 @@ struct Day38_iExpenseView: View {
     @State private var showingAddExpense = false
 
     var body: some View {
-        NavigationStack {
-            List {
-                ForEach(expenses.items) { item in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(item.name)
-                                .font(.headline)
-                            Text(item.type)
-                                .font(.subheadline)
-                        }
-                        Spacer()
-                        Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
-                            .currencyStyle(amount: item.amount)
+        List {
+            ForEach(expenses.items) { item in
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text(item.name)
+                            .font(.headline)
+                        Text(item.type)
+                            .font(.subheadline)
                     }
-                }
-                .onDelete(perform: removeItems)
-            }
-            .toolbar {
-                Button("Add Expense", systemImage: "plus") {
-                    showingAddExpense.toggle()
+                    Spacer()
+                    Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                        .currencyStyle(amount: item.amount)
                 }
             }
-            .sheet(isPresented: $showingAddExpense) {
-                Day37_AddExpenseView(expenses: expenses)
-            }
-            .navigationTitle("iExpense")
+            .onDelete(perform: removeItems)
         }
+        .toolbar {
+            Button("Add Expense", systemImage: "plus") {
+                showingAddExpense.toggle()
+            }
+        }
+        .sheet(isPresented: $showingAddExpense) {
+            Day37_AddExpenseView(expenses: expenses)
+        }
+        .navigationTitle("iExpense")
     }
 
     private func removeItems(at offsets: IndexSet) {
@@ -67,5 +65,7 @@ struct Day38_iExpenseView: View {
 }
 
 #Preview {
-    Day38_iExpenseView()
+    NavigationStack {
+        Day38_iExpenseView()
+    }
 }

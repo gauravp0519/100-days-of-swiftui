@@ -8,27 +8,29 @@
 import SwiftUI
 
 struct Day44_NavigationPathView: View {
-    // NavigationPath is Type Erasure
-    @State private var path = NavigationPath()
+    @State private var appNavigation = AppNavigation.shared
 
     var body: some View {
-        NavigationStack(path: $path) {
+        NavigationStack(path: $appNavigation.path) {
             List {
-                ForEach(0..<5) {
+                ForEach(0 ..< 5) {
                     NavigationLink("Select Number \($0)", value: $0)
                 }
 
-                ForEach(0..<5) {
+                ForEach(0 ..< 5) {
                     NavigationLink("Select String \($0)", value: String($0))
                 }
             }
             .toolbar {
                 Button("Push 556") {
-                    path.append(556)
+                    appNavigation.path.append(556)
                 }
                 Button("Push Hello") {
-                    path.append("Hello")
+                    appNavigation.path.append("Hello")
                 }
+            }
+            .navigationDestination(for: ItemModel.self) {
+                $0.view
             }
             .navigationDestination(for: Int.self) {
                 Text("You selected number: \($0)")

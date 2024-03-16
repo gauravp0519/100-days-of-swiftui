@@ -12,61 +12,59 @@ struct Day16_PickerView: View {
     @State private var selectedStudent = "Harry"
 
     var body: some View {
-        NavigationStack {
-            Form {
-                Section("Automatic") {
-                    Picker("Select your student", selection: $selectedStudent) {
-                        ForEach(students, id: \.self) {
-                            Text($0)
-                        }
+        Form {
+            Section("Automatic") {
+                Picker("Select your student", selection: $selectedStudent) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
                     }
-                    .pickerStyle(.automatic)
                 }
+                .pickerStyle(.automatic)
+            }
 
-                Section("Inline") {
-                    Picker("Select your student", selection: $selectedStudent) {
-                        ForEach(students, id: \.self) {
-                            Text($0)
-                        }
+            Section("Inline") {
+                Picker("Select your student", selection: $selectedStudent) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
                     }
-                    .pickerStyle(.inline)
                 }
+                .pickerStyle(.inline)
+            }
 
-                Section("Menu") {
-                    Picker("Select your student", selection: $selectedStudent) {
-                        ForEach(students, id: \.self) {
-                            Text($0)
-                        }
+            Section("Menu") {
+                Picker("Select your student", selection: $selectedStudent) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
                     }
-                    .pickerStyle(.menu)
                 }
+                .pickerStyle(.menu)
+            }
 
-                Section("NavigationLink") {
-                    Picker("Select your student", selection: $selectedStudent) {
-                        ForEach(students, id: \.self) {
-                            Text($0)
-                        }
+            Section("NavigationLink") {
+                Picker("Select your student", selection: $selectedStudent) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
                     }
-                    .pickerStyle(.navigationLink)
                 }
+                .pickerStyle(.navigationLink)
+            }
 
-                Section("Segmented") {
-                    Picker("Select your student", selection: $selectedStudent) {
-                        ForEach(students, id: \.self) {
-                            Text($0)
-                        }
+            Section("Segmented") {
+                Picker("Select your student", selection: $selectedStudent) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
                     }
-                    .pickerStyle(.segmented)
                 }
+                .pickerStyle(.segmented)
+            }
 
-                Section("Wheel") {
-                    Picker("Select your student", selection: $selectedStudent) {
-                        ForEach(students, id: \.self) {
-                            Text($0)
-                        }
+            Section("Wheel") {
+                Picker("Select your student", selection: $selectedStudent) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
                     }
-                    .pickerStyle(.wheel)
                 }
+                .pickerStyle(.wheel)
             }
         }
     }

@@ -55,7 +55,7 @@ struct Day35_EdutainmentGameStartView: View {
     }
 
     var body: some View {
-        NavigationStack {
+        VStack {
             if currentQuestionCount >= 1 {
                 VStack {
                     Spacer()

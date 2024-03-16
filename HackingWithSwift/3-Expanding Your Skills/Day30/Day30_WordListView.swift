@@ -13,19 +13,17 @@ struct Day30_WordListView: View {
     @State private var newWord = ""
 
     var body: some View {
-        NavigationStack {
-            List {
-                Section {
-                    TextField("Enter a word", text: $newWord)
-                        .textInputAutocapitalization(.never)
-                }
+        List {
+            Section {
+                TextField("Enter a word", text: $newWord)
+                    .textInputAutocapitalization(.never)
+            }
 
-                Section {
-                    ForEach(usedWords, id: \.self) { word in
-                        HStack {
-                            Image(systemName: "\(word.count).circle")
-                            Text(word)
-                        }
+            Section {
+                ForEach(usedWords, id: \.self) { word in
+                    HStack {
+                        Image(systemName: "\(word.count).circle")
+                        Text(word)
                     }
                 }
             }

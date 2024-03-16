@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660478F62B9E75C100D0F93B /* Day46View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660478F52B9E75C100D0F93B /* Day46View.swift */; };
+		660478F82B9E75F900D0F93B /* Day46_iExpenseWithNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660478F72B9E75F900D0F93B /* Day46_iExpenseWithNavigationView.swift */; };
 		6611BA762B84013400492A4A /* Day40_41View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6611BA752B84013400492A4A /* Day40_41View.swift */; };
 		6611BA7A2B84027400492A4A /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6611BA782B84027400492A4A /* astronauts.json */; };
 		6611BA7B2B84027400492A4A /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 6611BA792B84027400492A4A /* missions.json */; };
@@ -53,6 +55,8 @@
 		6643546C2B2195330016FE5A /* Day21_22_FlagStylingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643546B2B2195330016FE5A /* Day21_22_FlagStylingView.swift */; };
 		6643546E2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643546D2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift */; };
 		664354702B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643546F2B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift */; };
+		66571AAA2BA17DC8004F8D9A /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66571AA92BA17DC8004F8D9A /* AppNavigation.swift */; };
+		66571AAC2BA182B1004F8D9A /* DayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66571AAB2BA182B1004F8D9A /* DayListView.swift */; };
 		6659AE872B5DF69E006A26D1 /* Day28View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659AE862B5DF69E006A26D1 /* Day28View.swift */; };
 		6659AE892B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659AE882B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift */; };
 		6659AE8C2B5E0305006A26D1 /* Day29View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659AE8B2B5E0305006A26D1 /* Day29View.swift */; };
@@ -184,6 +188,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660478F52B9E75C100D0F93B /* Day46View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day46View.swift; sourceTree = "<group>"; };
+		660478F72B9E75F900D0F93B /* Day46_iExpenseWithNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day46_iExpenseWithNavigationView.swift; sourceTree = "<group>"; };
 		6611BA752B84013400492A4A /* Day40_41View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day40_41View.swift; sourceTree = "<group>"; };
 		6611BA782B84027400492A4A /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		6611BA792B84027400492A4A /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
@@ -230,6 +236,8 @@
 		6643546B2B2195330016FE5A /* Day21_22_FlagStylingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_FlagStylingView.swift; sourceTree = "<group>"; };
 		6643546D2B219EBC0016FE5A /* Day21_22_UpgradingDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_UpgradingDesignView.swift; sourceTree = "<group>"; };
 		6643546F2B21A6230016FE5A /* Day21_22_GuessTheFlagGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day21_22_GuessTheFlagGameView.swift; sourceTree = "<group>"; };
+		66571AA92BA17DC8004F8D9A /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		66571AAB2BA182B1004F8D9A /* DayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListView.swift; sourceTree = "<group>"; };
 		6659AE862B5DF69E006A26D1 /* Day28View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day28View.swift; sourceTree = "<group>"; };
 		6659AE882B5DF73E006A26D1 /* Day28_BetterRestSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day28_BetterRestSectionView.swift; sourceTree = "<group>"; };
 		6659AE8B2B5E0305006A26D1 /* Day29View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day29View.swift; sourceTree = "<group>"; };
@@ -372,6 +380,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		660478F42B9E75A400D0F93B /* Day46 */ = {
+			isa = PBXGroup;
+			children = (
+				660478F52B9E75C100D0F93B /* Day46View.swift */,
+				660478F72B9E75F900D0F93B /* Day46_iExpenseWithNavigationView.swift */,
+			);
+			path = Day46;
+			sourceTree = "<group>";
+		};
 		6611BA742B84012100492A4A /* Day40-41 */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +483,7 @@
 				66BA56FC2B952122004DDEAC /* Day43 */,
 				66A8AA252B952A6F000A6527 /* Day44 */,
 				66A8AA302B955335000A6527 /* Day45 */,
+				660478F42B9E75A400D0F93B /* Day46 */,
 			);
 			path = "5-Scaling to Bigger Apps";
 			sourceTree = "<group>";
@@ -593,10 +611,12 @@
 			children = (
 				6696F9362B1A4E9B00CFFCCF /* BasicsPlayground.playground */,
 				6696F90C2B1A4CB700CFFCCF /* HackingWithSwiftApp.swift */,
+				66571AA92BA17DC8004F8D9A /* AppNavigation.swift */,
 				6696F9412B1AE0C500CFFCCF /* Constants.swift */,
 				6696F9432B1AE81F00CFFCCF /* CodeView.swift */,
 				6696F9472B1AEE2300CFFCCF /* OutputView.swift */,
 				6696F9392B1A4FAE00CFFCCF /* SelectionView.swift */,
+				66571AAB2BA182B1004F8D9A /* DayListView.swift */,
 				667023EF2B1C5735003328D5 /* Extensions */,
 				6696F94B2B1AFA4700CFFCCF /* 1-Introduction to Swift */,
 				6696F94C2B1AFA5D00CFFCCF /* 2-Starting Swift UI */,
@@ -1061,6 +1081,7 @@
 				662189C22B6C80C100BA69ED /* Day33_CustomTransitionsView.swift in Sources */,
 				6696F9572B1B7A1400CFFCCF /* Day16_StateView.swift in Sources */,
 				66D62CEC2B79EFE200AFA29E /* Day39_FixedItemVGridView.swift in Sources */,
+				66571AAA2BA17DC8004F8D9A /* AppNavigation.swift in Sources */,
 				66F047522B5F579800E9C3C3 /* Day30_WordListView.swift in Sources */,
 				662189C72B6DF4AB00BA69ED /* Day35View.swift in Sources */,
 				669AB05E2B5494890087ECCD /* Day26View.swift in Sources */,
@@ -1082,6 +1103,7 @@
 				667023FC2B1D9620003328D5 /* Day20_ColorsAndFramesViews.swift in Sources */,
 				6643546A2B2190860016FE5A /* Day21_22_ShowScoreWithAlertView.swift in Sources */,
 				66A8AA292B95488B000A6527 /* Day44_ProgrammaticNavigationView.swift in Sources */,
+				660478F82B9E75F900D0F93B /* Day46_iExpenseWithNavigationView.swift in Sources */,
 				66D62CE42B79C7A900AFA29E /* Day39_NavigationLinkView.swift in Sources */,
 				667023F82B1D792C003328D5 /* Day20View.swift in Sources */,
 				6670240D2B1DA82C003328D5 /* Day21_22View.swift in Sources */,
@@ -1119,6 +1141,7 @@
 				66A8AA242B952738000A6527 /* Day43_NavigationDestinationView.swift in Sources */,
 				66D62CD42B7790B100AFA29E /* Day39_ImageView.swift in Sources */,
 				66A8AA382B95568D000A6527 /* Day45_EditableNavigationTitleView.swift in Sources */,
+				66571AAC2BA182B1004F8D9A /* DayListView.swift in Sources */,
 				66A8AA2B2B954AC2000A6527 /* Day44_NavigationPathView.swift in Sources */,
 				66D62CF02B79F21C00AFA29E /* Day39_AdaptiveItemVGridView.swift in Sources */,
 				6611BA9C2B86EC2800492A4A /* MissionsListLayoutView.swift in Sources */,
@@ -1147,6 +1170,7 @@
 				662189CB2B6E049900BA69ED /* Day35_EdutainmentGameStartView.swift in Sources */,
 				6696F9422B1AE0C500CFFCCF /* Constants.swift in Sources */,
 				66BA57002B952532004DDEAC /* Day43_SimpleNavigationLinkView.swift in Sources */,
+				660478F62B9E75C100D0F93B /* Day46View.swift in Sources */,
 				6696F95D2B1B7C5700CFFCCF /* Day16_PickerView.swift in Sources */,
 				6643546C2B2195330016FE5A /* Day21_22_FlagStylingView.swift in Sources */,
 				6659AE872B5DF69E006A26D1 /* Day28View.swift in Sources */,

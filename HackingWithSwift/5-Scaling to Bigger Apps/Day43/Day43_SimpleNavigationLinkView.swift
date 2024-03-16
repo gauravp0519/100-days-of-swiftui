@@ -25,16 +25,16 @@ private struct DetailView: View {
  */
 struct Day43_SimpleNavigationLinkView: View {
     var body: some View {
-        NavigationStack {
-            List(0 ..< 100) { i in
-                NavigationLink("Tap Me") {
-                    DetailView(number: i)
-                }
+        List(0 ..< 100) { i in
+            NavigationLink("Tap Me - Row \(i)") {
+                DetailView(number: i)
             }
         }
     }
 }
 
 #Preview {
-    Day43_SimpleNavigationLinkView()
+    NavigationStack {
+        Day43_SimpleNavigationLinkView()
+    }
 }

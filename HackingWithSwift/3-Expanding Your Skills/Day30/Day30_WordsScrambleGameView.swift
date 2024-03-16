@@ -17,20 +17,18 @@ struct Day30_WordsScrambleGameView: View {
     @State private var showAlert: Bool = false
 
     var body: some View {
-        NavigationStack {
-            List {
-                Section {
-                    TextField("Enter a word", text: $newWord)
-                        .textInputAutocapitalization(.never)
-                        .autocorrectionDisabled()
-                }
+        List {
+            Section {
+                TextField("Enter a word", text: $newWord)
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
+            }
 
-                Section {
-                    ForEach(usedWords, id: \.self) { word in
-                        HStack {
-                            Image(systemName: "\(word.count).circle")
-                            Text(word)
-                        }
+            Section {
+                ForEach(usedWords, id: \.self) { word in
+                    HStack {
+                        Image(systemName: "\(word.count).circle")
+                        Text(word)
                     }
                 }
             }

@@ -20,12 +20,14 @@ private struct DetailView: View {
     }
 }
 
-fileprivate struct Student: Hashable, Identifiable {
+private struct Student: Hashable, Identifiable {
     let id = UUID().uuidString
     let name: String
 }
 
 struct Day43_NavigationDestinationView: View {
+    @State private var appNavigation = AppNavigation.shared
+
     private let students: [Student] = [
         .init(name: "Tommy"),
         .init(name: "Harry"),
@@ -34,10 +36,10 @@ struct Day43_NavigationDestinationView: View {
         .init(name: "Paul"),
     ]
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $appNavigation.path) {
             List {
                 Section {
-                    ForEach(0..<5) { i in
+                    ForEach(0 ..< 5) { i in
                         NavigationLink("Select \(i)", value: i)
                     }
                 }
@@ -46,6 +48,9 @@ struct Day43_NavigationDestinationView: View {
                         NavigationLink("Select \(student.name)", value: student)
                     }
                 }
+            }
+            .navigationDestination(for: ItemModel.self) {
+                $0.view
             }
             .navigationDestination(for: Int.self) {
                 DetailView(number: $0)

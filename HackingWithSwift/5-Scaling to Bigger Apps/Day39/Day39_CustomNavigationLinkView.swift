@@ -9,18 +9,16 @@ import SwiftUI
 
 struct Day39_CustomNavigationLinkView: View {
     var body: some View {
-        NavigationStack {
-            NavigationLink {
-                Text("Details View")
-            } label: {
-                VStack {
-                    Text("This is the label")
-                    Text("Tap it")
-                    Image(systemName: "face.smiling")
-                }
+        NavigationLink {
+            Text("Details View")
+        } label: {
+            VStack {
+                Text("This is the label")
+                Text("Tap it")
+                Image(systemName: "face.smiling")
             }
-            .navigationTitle("SwiftUI")
         }
+        .navigationTitle("SwiftUI")
     }
 }
 

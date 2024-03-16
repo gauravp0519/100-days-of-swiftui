@@ -9,31 +9,25 @@ import SwiftUI
 
 struct Day45_ToolbarButtonsView: View {
     var body: some View {
-        NavigationStack {
-            Text("Hello world!")
-                .toolbar {
-                    ToolbarItem(placement: .topBarLeading) {
-                        Button("Home") {
-
-                        }
-                    }
-
-                    ToolbarItem(placement: .confirmationAction) {
-                        Button("Confirm") {
-
-                        }
-                    }
-
-                    ToolbarItem(placement: .destructiveAction) {
-                        Button("Destroy") {
-
-                        }
-                    }
+        Text("Hello world!")
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button("Home") {}
                 }
-        }
+
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Confirm") {}
+                }
+
+                ToolbarItem(placement: .destructiveAction) {
+                    Button("Destroy") {}
+                }
+            }
     }
 }
 
 #Preview {
-    Day45_ToolbarButtonsView()
+    NavigationStack {
+        Day45_ToolbarButtonsView()
+    }
 }

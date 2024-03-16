@@ -9,14 +9,12 @@ import SwiftUI
 
 struct Day39_NavigationLinkWithListView: View {
     var body: some View {
-        NavigationStack {
-            List(1 ... 100, id: \.self) { row in
-                NavigationLink("Item \(row)") {
-                    Text("Detail \(row)")
-                }
+        List(1 ... 100, id: \.self) { row in
+            NavigationLink("Item \(row)") {
+                Text("Detail \(row)")
             }
-            .navigationTitle("SwiftUI")
         }
+        .navigationTitle("SwiftUI")
     }
 }
 

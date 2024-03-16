@@ -13,14 +13,24 @@ struct SectionModel: Identifiable {
     let items: [ItemModel]
 }
 
-struct ItemModel: Identifiable {
+struct ItemModel: Identifiable, Hashable {
     let id = UUID()
     let title: String
     let description: String
     let view: AnyView
+
+    static func == (lhs: ItemModel, rhs: ItemModel) -> Bool {
+        lhs.id == rhs.id
+    }
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }
 
 struct SelectionView: View {
+    @State private var appNavigation = AppNavigation.shared
+
     private let sections: [SectionModel] = [
         .init(title: "Introduction to Swift", items: [
             .init(title: "Day 1",
@@ -95,16 +105,17 @@ struct SelectionView: View {
             .init(title: "Day 43", description: "#Navigation, part 1", view: AnyView(Day43View())),
             .init(title: "Day 44", description: "#Navigation, part 2", view: AnyView(Day44View())),
             .init(title: "Day 45", description: "#Navigation, part 3", view: AnyView(Day45View())),
+            .init(title: "Day 46", description: "#Navigation, part 4", view: AnyView(Day46View())),
         ]),
     ]
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $appNavigation.path) {
             List {
                 ForEach(self.sections) { section in
                     Section(header: Text(section.title)) {
                         ForEach(section.items) { item in
-                            NavigationLink(destination: item.view) {
+                            NavigationLink(value: item) {
                                 VStack(alignment: .leading) {
                                     Text(item.title)
                                         .font(.headline)
@@ -118,7 +129,10 @@ struct SelectionView: View {
                     }
                 }
             }
-            .navigationTitle("Hacking with SwiftUI ")
+            .navigationDestination(for: ItemModel.self) {
+                $0.view
+            }
+            .navigationTitle("Hacking with SwiftUI")
         }
     }
 }

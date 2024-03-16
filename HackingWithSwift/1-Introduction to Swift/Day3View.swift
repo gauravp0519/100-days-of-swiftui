@@ -21,20 +21,18 @@ struct Day3View: View {
     """
 
     var body: some View {
-        NavigationStack {
-            VStack(alignment: .leading, spacing: 16) {
-                Text("*How to use default values in Dictionaries*")
+        VStack(alignment: .leading, spacing: 16) {
+            Text("*How to use default values in Dictionaries*")
 
-                CodeView(self.codeSnippet)
+            CodeView(self.codeSnippet)
 
-                OutputView("0")
+            OutputView("0")
 
-                Spacer()
-            }
-            .padding()
-            .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("Dictionary default value")
+            Spacer()
         }
+        .padding()
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Dictionary default value")
     }
 }
 

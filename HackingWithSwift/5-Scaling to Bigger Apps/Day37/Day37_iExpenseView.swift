@@ -36,33 +36,31 @@ struct Day37_iExpenseView: View {
     @State private var showingAddExpense = false
 
     var body: some View {
-        NavigationStack {
-            List {
-                ForEach(expenses.items) { item in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(item.name)
-                                .font(.headline)
-                            Text(item.type)
-                                .font(.subheadline)
-                        }
-                        Spacer()
-                        Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+        List {
+            ForEach(expenses.items) { item in
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text(item.name)
+                            .font(.headline)
+                        Text(item.type)
                             .font(.subheadline)
                     }
-                }
-                .onDelete(perform: removeItems)
-            }
-            .toolbar {
-                Button("Add Expense", systemImage: "plus") {
-                    showingAddExpense.toggle()
+                    Spacer()
+                    Text(item.amount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
+                        .font(.subheadline)
                 }
             }
-            .sheet(isPresented: $showingAddExpense) {
-                Day37_AddExpenseView(expenses: expenses)
-            }
-            .navigationTitle("iExpense")
+            .onDelete(perform: removeItems)
         }
+        .toolbar {
+            Button("Add Expense", systemImage: "plus") {
+                showingAddExpense.toggle()
+            }
+        }
+        .sheet(isPresented: $showingAddExpense) {
+            Day37_AddExpenseView(expenses: expenses)
+        }
+        .navigationTitle("iExpense")
     }
 
     private func removeItems(at offsets: IndexSet) {
@@ -71,5 +69,7 @@ struct Day37_iExpenseView: View {
 }
 
 #Preview {
-    Day37_iExpenseView()
+    NavigationStack {
+        Day37_iExpenseView()
+    }
 }

@@ -34,17 +34,15 @@ struct Day6View: View {
     """#
 
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 16) {
-                    Text("*Swift’s labeled statements allow us to name certain parts of our code, and it’s most commonly used for **breaking out of nested loops**.*")
+        ScrollView {
+            VStack(alignment: .leading, spacing: 16) {
+                Text("*Swift’s labeled statements allow us to name certain parts of our code, and it’s most commonly used for **breaking out of nested loops**.*")
 
-                    CodeView(self.codeSnippet)
-                }
-                .padding()
-                .navigationBarTitleDisplayMode(.inline)
-                .navigationTitle("Breaking nested loops")
+                CodeView(self.codeSnippet)
             }
+            .padding()
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("Breaking nested loops")
         }
     }
 }

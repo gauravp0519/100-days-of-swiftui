@@ -12,7 +12,7 @@ struct Day26_StepperView: View {
 
     var body: some View {
         Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4 ... 12, step: 0.25)
-            .padding(100)
+            .frame(width: 200)
     }
 }
 
